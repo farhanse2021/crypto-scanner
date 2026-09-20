@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trade Tracker — Win Rate Dashboard</title>
+<style>
+    :root { color-scheme: dark; }
+    body { background:#0b0d12; color:#e5e7eb; font-family:-apple-system,Segoe UI,Roboto,sans-serif; margin:0; padding:20px 24px 60px; }
+    h1 { font-size:22px; margin:0 0 4px 0; }
+    h2 { font-size:16px; margin:0 0 10px 0; }
+    .subtitle { color:#9ca3af; font-size:13px; margin-bottom:18px; }
+    button { background:#1e293b; color:#e5e7eb; border:1px solid #334155; border-radius:6px; padding:8px 14px; font-size:13px; cursor:pointer; }
+    button:hover { background:#334155; }
+    .toolbar { display:flex; gap:8px; align-items:center; margin:14px 0 22px; flex-wrap:wrap; }
+    .status-line { color:#9ca3af; font-size:13px; margin:10px 0; }
+
+    .stat-cards { display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:12px; margin-bottom:24px; }
+    .stat-card { background:#12151c; border:1px solid #1f2430; border-radius:10px; padding:14px 16px; }
+    .stat-label { color:#9ca3af; font-size:11px; text-transform:uppercase; margin-bottom:6px; }
+    .stat-value { font-size:24px; font-weight:bold; }
+    .stat-value.green { color:#4ade80; }
+    .stat-value.red { color:#f87171; }
+    .stat-value.yellow { color:#facc15; }
+    .stat-value.blue { color:#60a5fa; }
+    .stat-value.gray { color:#9ca3af; }
+
+    .section { margin-bottom:30px; }
+    table { width:100%; border-collapse:collapse; font-size:12.5px; }
+    th, td { padding:8px 10px; text-align:left; border-bottom:1px solid #1f2430; white-space:nowrap; }
+    th { color:#9ca3af; font-weight:600; position:sticky; top:0; background:#0b0d12; }
+    tr:hover td { background:#12151c; }
+    .table-scroll { overflow-x:auto; border:1px solid #1f2430; border-radius:8px; }
+    .empty-note { color:#6b7280; font-size:13px; padding:14px; }
+    .pill { display:inline-block; padding:2px 9px; border-radius:20px; font-size:11px; font-weight:bold; }
+    .pill-tp { background:#12261a; color:#4ade80; }
+    .pill-sl { background:#2a1414; color:#f87171; }
+    .pill-timeout { background:#232323; color:#9ca3af; }
+    .pill-auto { background:#1e2a3a; color:#60a5fa; }
+    .wr-bar-track { background:#1f2430; border-radius:4px; height:8px; width:100px; overflow:hidden; display:inline-block; vertical-align:middle; margin-right:8px; }
+    .wr-bar-fill { background:#4ade80; height:100%; }
+    .best-window { background:#0d1f14; border:1px solid #1f4a2e; }
+    .note { color:#6b7280; font-size:11.5px; margin-top:10px; line-height:1.6; }
+    .error { color:#f87171; background:#2a1414; border:1px solid #4a1f1f; border-radius:8px; padding:12px 14px; font-size:13px; margin-bottom:16px; }
+</style>
+</head>
+<body>
+
+<h1>📊 Trade Tracker — Win Rate Dashboard</h1>
+<div class="subtitle">Trades are logged and closed automatically by the scanner running on GitHub Actions (no browser tab needed). This page only <b>reads</b> <code>data/trades.json</code> from the repo — refresh to see the latest.</div>
+
+<div class="toolbar">
+    <button onclick="renderAll()">🔄 Refresh</button>
+    <button onclick="exportLog()">⬇️ Export JSON</button>
+    <button onclick="exportCsv()">⬇️ Export CSV</button>
+</div>
+<div class="status-line" id="statusLine"></div>
+<div id="errorBox"></div>
+
+<div id="overviewSection"></div>
+<div id="pendingSection" class="section"></div>
+<div id="breakdownSection" class="section"></div>
+<div id="closedSection" class="section"></div>
+
+<script>
+// ==========================================================================
+// >>> EDIT THIS: your GitHub username and repo name (repo must be PUBLIC) <<<
+// ==========================================================================
+const DATA_URL = 'https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/data/trades.json';
+// If you open this page from inside the repo (GitHub Pages), you can use: 'data/trades.json'
+
+let LOG = [];
+
+function setStatus(msg) { document.getElementById('statusLine').textContent = msg; }
+function showError(msg) { document.getElementById('errorBox').innerHTML = msg ? '<div class="error">' + escapeHtml(msg) + '</div>' : ''; }
+function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str == null ? '' : String(str);
+    return div.innerHTML;
+}
+function fmtPrice(p) {
+    if (p === null || p === undefined) return '-';
+    if (p >= 1) return p.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const decimals = p > 0 ? Math.max(6, -Math.floor(Math.log10(p)) + 3) : 6;   // PEPE / SHIB / BONK safe
+    return p.toFixed(decimals);
+}
+function fmtPnl(v) { return v === null || v === undefined ? '-' : (v > 0 ? '+' : '') + v.toFixed(2) + '%'; }
+
+// PKT hour (Asia/Karachi) from an epoch ms timestamp — used to bucket signals by time-of-day.
+function pktHour(epochMs) {
+    const s = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Karachi', hour: '2-digit', hour12: false }).format(new Date(epochMs));
+    return parseInt(s, 10) % 24;
+}
+const TIME_BUCKETS = [
+    { label: '00:00–05:59', from: 0, to: 6 },
+    { label: '06:00–09:59', from: 6, to: 10 },
+    { label: '10:00–12:59', from: 10, to: 13 },
+    { label: '13:00–16:59', from: 13, to: 17 },
+    { label: '17:00–19:59', from: 17, to: 20 },
+    { label: '20:00–23:59', from: 20, to: 24 }
+];
+function bucketFor(hour) { return TIME_BUCKETS.find(b => hour >= b.from && hour < b.to) || TIME_BUCKETS[0]; }
+
+// ==========================================================================
+// EXPORTS
+// ==========================================================================
+function exportFileName(ext) {
+    const date = new Date().toISOString().slice(0, 10);
+    return `trade-log-${date}-${Math.random().toString(36).slice(2, 8)}.${ext}`;
+}
+function download(blob, name) {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = name;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+function exportLog() {
+    download(new Blob([JSON.stringify(LOG, null, 2)], { type: 'application/json' }), exportFileName('json'));
+    setStatus('Exported ' + LOG.length + ' entries.');
+}
+function csvField(v) {
+    if (v === null || v === undefined) return '';
+    const s = String(v);
+    return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+}
+function exportCsv() {
+    const headers = [
+        'ID', 'Status', 'Source', 'Auto', 'Direction', 'Coin', 'Symbol', 'Rank', 'Market Cap',
+        'Price', 'SL Price', 'TP Price', 'Exit Price', 'PnL %', 'Ambiguous', 'Score', 'ADX 1H', 'ADX 15M', 'ADX 5M', 'RSI', 'ATR %',
+        'Vol Ratio', 'Margin %', 'Logged At (PKT)', 'Closed At (PKT)',
+        'BTC Dominance', 'ETH Dominance', 'USDT Dominance', 'ETH/BTC Ratio',
+        'Total Market Cap', 'TOTAL2 (ex-BTC)', 'TOTAL3 (ex-BTC & ETH)', 'List Breadth vs BTC (24h)'
+    ];
+    const rows = LOG.slice().sort((a, b) => b.loggedAt - a.loggedAt).map(e => {
+        const breadth = e.breadthPct !== undefined && e.breadthPct !== null
+            ? e.breadthPct.toFixed(0) + '% (' + e.beatBtc + '/' + e.breadthTotal + ')' : '';
+        return [
+            e.id, e.status, e.source, e.auto ? 'Yes' : 'No', e.direction ?? '', e.name, e.symbol,
+            e.rank ?? '', e.marketCap ?? '', e.price ?? '', e.slPrice ?? '', e.tpPrice ?? '', e.exitPrice ?? '', e.pnlPct ?? '', e.ambiguous ? 'Yes' : '',
+            e.score ?? '', e.adx1h ?? '', e.adx15m ?? '', e.adx5m ?? '', e.rsi ?? '', e.atrPct ?? '',
+            e.volRatio ?? '', e.marginPct ?? '', e.loggedAtPKT ?? '', e.closedAtPKT ?? '',
+            e.btcDom ?? '', e.ethDom ?? '', e.usdtDom ?? '', e.ethBtcRatio ?? '',
+            e.totalMcap ?? '', e.total2 ?? '', e.total3 ?? '', breadth
+        ].map(csvField).join(',');
+    });
+    download(new Blob([headers.map(csvField).join(',') + '\n' + rows.join('\n')], { type: 'text/csv' }), exportFileName('csv'));
+    setStatus('Exported ' + LOG.length + ' entries to CSV.');
+}
+
+// ==========================================================================
+// STATS — win rate = TP / (TP + SL). Timeouts are shown separately, not counted as wins or losses.
+// ==========================================================================
+function computeGroupStats(entries) {
+    const tp = entries.filter(e => e.status === 'tp').length;
+    const sl = entries.filter(e => e.status === 'sl').length;
+    const timeout = entries.filter(e => e.status === 'timeout').length;
+    const pending = entries.filter(e => e.status === 'pending').length;
+    const closed = tp + sl;
+    return { total: entries.length, closed, tp, sl, timeout, pending, winRate: closed > 0 ? (tp / closed) * 100 : null };
+}
+function winRateBarHtml(winRate, closedCount) {
+    if (winRate === null) return '<span style="color:#6b7280;">no closed trades yet</span>';
+    const cls = winRate >= 55 ? '#4ade80' : winRate >= 40 ? '#facc15' : '#f87171';
+    return `<div class="wr-bar-track"><div class="wr-bar-fill" style="width:${winRate.toFixed(0)}%; background:${cls};"></div></div>${winRate.toFixed(1)}% <span style="color:#6b7280;">(${closedCount})</span>`;
+}
+function groupRow(label, s, cls) {
+    return `<tr class="${cls || ''}"><td>${label}</td><td>${s.total}</td><td>${s.tp}</td><td>${s.sl}</td><td>${s.timeout}</td><td>${s.pending}</td><td>${winRateBarHtml(s.winRate, s.closed)}</td></tr>`;
+}
+
+function renderOverview(log) {
+    const s = computeGroupStats(log);
+    document.getElementById('overviewSection').innerHTML = `
+    <div class="stat-cards">
+        <div class="stat-card"><div class="stat-label">Total Signals</div><div class="stat-value blue">${s.total}</div></div>
+        <div class="stat-card"><div class="stat-label">Pending</div><div class="stat-value yellow">${s.pending}</div></div>
+        <div class="stat-card"><div class="stat-label">TP Hit</div><div class="stat-value green">${s.tp}</div></div>
+        <div class="stat-card"><div class="stat-label">SL Hit</div><div class="stat-value red">${s.sl}</div></div>
+        <div class="stat-card"><div class="stat-label">Timeout</div><div class="stat-value gray">${s.timeout}</div></div>
+        <div class="stat-card"><div class="stat-label">Win Rate (TP vs SL)</div><div class="stat-value ${s.winRate === null ? '' : s.winRate >= 50 ? 'green' : 'red'}">${s.winRate === null ? '-' : s.winRate.toFixed(1) + '%'}</div></div>
+    </div>`;
+}
+
+function renderPending(log) {
+    const pending = log.filter(e => e.status === 'pending').sort((a, b) => b.loggedAt - a.loggedAt);
+    const el = document.getElementById('pendingSection');
+    let html = `<h2>⏳ Pending Signals (${pending.length})</h2>`;
+    if (pending.length === 0) {
+        html += `<div class="empty-note">Koi pending signal nahi.</div>`;
+    } else {
+        html += `<div class="table-scroll"><table>
+            <tr><th>Type</th><th>Source</th><th>Coin</th><th>Entry</th><th>SL</th><th>TP</th><th>Logged (PKT)</th></tr>
+            ${pending.map(e => `<tr>
+                <td>${e.auto ? '<span class="pill pill-auto">AUTO</span>' : '<span class="pill pill-timeout">manual</span>'}</td>
+                <td>${escapeHtml(e.source)}</td>
+                <td>${escapeHtml(e.name)} (${escapeHtml(e.symbol)})</td>
+                <td>${fmtPrice(e.price)}</td>
+                <td style="color:#f87171;">${e.slPrice ? fmtPrice(e.slPrice) : '-'}</td>
+                <td style="color:#4ade80;">${e.tpPrice ? fmtPrice(e.tpPrice) : '-'}</td>
+                <td style="font-size:11px;">${escapeHtml(e.loggedAtPKT)}</td>
+            </tr>`).join('')}
+        </table></div>`;
+    }
+    el.innerHTML = html;
+}
+
+function renderBreakdown(log) {
+    const bySource = {};
+    log.forEach(e => { (bySource[e.source] = bySource[e.source] || []).push(e); });
+    const sourceRows = Object.keys(bySource).sort().map(src => groupRow(escapeHtml(src), computeGroupStats(bySource[src]))).join('');
+
+    const byCoin = {};
+    log.forEach(e => { (byCoin[e.symbol] = byCoin[e.symbol] || { name: e.name, entries: [] }).entries.push(e); });
+    const coinRows = Object.keys(byCoin)
+        .map(sym => ({ sym, name: byCoin[sym].name, stats: computeGroupStats(byCoin[sym].entries) }))
+        .sort((a, b) => b.stats.total - a.stats.total)
+        .slice(0, 15)
+        .map(c => groupRow(`${escapeHtml(c.name)} (${escapeHtml(c.sym)})`, c.stats)).join('');
+
+    const byBucket = {};
+    TIME_BUCKETS.forEach(b => { byBucket[b.label] = []; });
+    log.forEach(e => { byBucket[bucketFor(pktHour(e.loggedAt)).label].push(e); });
+    const bucketRows = TIME_BUCKETS.map(b => {
+        const isBest = b.label === '13:00–16:59';
+        return groupRow(`${b.label} PKT ${isBest ? '⭐' : ''}`, computeGroupStats(byBucket[b.label]), isBest ? 'best-window' : '');
+    }).join('');
+
+    const headRow = `<tr><th>Group</th><th>Total</th><th>TP</th><th>SL</th><th>Timeout</th><th>Pending</th><th>Win Rate</th></tr>`;
+    document.getElementById('breakdownSection').innerHTML = `
+    <h2>📈 Breakdown by Source</h2>
+    <div class="table-scroll"><table>${headRow}${sourceRows || '<tr><td colspan="7" class="empty-note">No data yet.</td></tr>'}</table></div>
+
+    <h2 style="margin-top:24px;">🪙 Breakdown by Coin (top 15 by signal count)</h2>
+    <div class="table-scroll"><table>${headRow}${coinRows || '<tr><td colspan="7" class="empty-note">No data yet.</td></tr>'}</table></div>
+
+    <h2 style="margin-top:24px;">🕐 Breakdown by Time of Day (PKT)</h2>
+    <div class="table-scroll"><table>${headRow}${bucketRows}</table></div>
+    <div class="note">⭐ = the 13:00–16:59 PKT window flagged earlier as showing a better TP ratio in manual tracking. Small samples can mislead — wait for a few dozen closed trades before trusting any bucket.</div>`;
+}
+
+function renderClosed(log) {
+    const closed = log.filter(e => e.status !== 'pending').sort((a, b) => (b.closedAt || 0) - (a.closedAt || 0)).slice(0, 50);
+    const el = document.getElementById('closedSection');
+    let html = `<h2>📜 Closed Trades History (latest ${closed.length})</h2>`;
+    if (closed.length === 0) {
+        html += `<div class="empty-note">Abhi koi trade close nahi hua.</div>`;
+    } else {
+        const pill = e => e.status === 'tp' ? '<span class="pill pill-tp">TP HIT</span>'
+            : e.status === 'sl' ? `<span class="pill pill-sl">SL HIT${e.ambiguous ? ' *' : ''}</span>`
+            : '<span class="pill pill-timeout">TIMEOUT</span>';
+        html += `<div class="table-scroll"><table>
+            <tr><th>Result</th><th>Source</th><th>Coin</th><th>Entry</th><th>Exit</th><th>PnL</th><th>Logged (PKT)</th><th>Closed (PKT)</th></tr>
+            ${closed.map(e => `<tr>
+                <td>${pill(e)}</td>
+                <td>${escapeHtml(e.source)}</td>
+                <td>${escapeHtml(e.name)} (${escapeHtml(e.symbol)})</td>
+                <td>${fmtPrice(e.price)}</td>
+                <td>${fmtPrice(e.exitPrice)}</td>
+                <td>${fmtPnl(e.pnlPct)}</td>
+                <td style="font-size:11px;">${escapeHtml(e.loggedAtPKT)}</td>
+                <td style="font-size:11px;">${escapeHtml(e.closedAtPKT)}</td>
+            </tr>`).join('')}
+        </table></div>
+        <div class="note">* = TP and SL were both touched inside the same 1-minute candle, so it is counted as SL (conservative).
+        Timeout = neither level was hit within the max holding time; excluded from win rate.</div>`;
+    }
+    el.innerHTML = html;
+}
+
+// ==========================================================================
+// MAIN
+// ==========================================================================
+async function renderAll() {
+    setStatus('Loading trades...');
+    showError('');
+    try {
+        const res = await fetch(DATA_URL + (DATA_URL.includes('?') ? '&' : '?') + 't=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        if (!Array.isArray(data)) throw new Error('trades.json is not an array');
+        LOG = data;
+    } catch (err) {
+        showError('trades.json load nahi hui (' + err.message + '). DATA_URL check karo: repo PUBLIC hona chahiye aur username/repo sahi hone chahiye.');
+        setStatus('');
+        return;
+    }
+    setStatus(LOG.length + ' signals loaded. Refreshed ' + new Date().toLocaleTimeString() + '. (GitHub cache ke wajah se latest trade 1-5 min late dikh sakta hai.)');
+    renderOverview(LOG);
+    renderPending(LOG);
+    renderBreakdown(LOG);
+    renderClosed(LOG);
+}
+
+renderAll();
+</script>
+
+</body>
+</html>
