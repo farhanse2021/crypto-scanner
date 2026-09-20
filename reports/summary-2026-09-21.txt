@@ -1,0 +1,16 @@
+📊 Daily report — 21 Sep 2026, 02:05:45 PKT (last 24h)
+
+Trades opened: 10
+Closed: ✅ TP 4 · ❌ SL 4 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 50.0%
+Open right now: 2
+
+All-time: 10 trades · TP 4 · SL 4 · timeout 0 · win rate 50.0%
+✅ PUMP [Combined] +1.16%
+✅ ETH [Claude] +1.16%
+❌ ALGO [Combined] -1.16%
+✅ ENA [Claude] +1.16%
+✅ AVAX [Me] +1.16%
+❌ NEAR [Combined] -1.16%
+❌ ICP [Claude] -1.16%
+❌ CAKE [Me] -1.16%
