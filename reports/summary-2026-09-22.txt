@@ -1,0 +1,17 @@
+📊 Daily report — 22 Sep 2026, 03:19:44 PKT (last 24h)
+
+Trades opened: 9
+Closed: ✅ TP 4 · ❌ SL 5 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 44.4%
+Open right now: 1
+
+All-time: 22 trades · TP 10 · SL 11 · timeout 0 · win rate 47.6%
+❌ INJ [Claude] -1.16%
+❌ SUI [Me] -1.16%
+✅ BCH [Claude] +1.16%
+❌ WLD [Combined] -1.16%
+❌ NEAR [Me] -1.16%
+❌ ETHFI [Combined] -1.16%
+✅ BNB [Me] +1.16%
+✅ JUP [Combined] +1.16%
+✅ HBAR [Claude] +1.16%
