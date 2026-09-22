@@ -1,0 +1,19 @@
+📊 Daily report — 23 Sep 2026, 02:42:13 PKT (last 24h)
+
+Trades opened: 14
+Closed: ✅ TP 6 · ❌ SL 5 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 54.5%
+Open right now: 3
+
+All-time: 36 trades · TP 16 · SL 17 · timeout 0 · win rate 48.5%
+✅ BCH [Combined] +1.16%
+✅ QNT [Me] +1.16%
+❌ WLFI [Claude] -1.16%
+❌ HBAR [Me] -1.16%
+✅ ZEC [Claude] +1.16%
+✅ PEPE [Me] +1.16%
+✅ JST [Combined] +1.16%
+❌ FIL [Combined] -1.16%
+❌ ATOM [Claude] -1.16%
+❌ BTC [Me] -1.16%
+✅ ONDO [Combined] +1.16%
