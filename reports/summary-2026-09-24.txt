@@ -1,0 +1,17 @@
+📊 Daily report — 24 Sep 2026, 02:50:15 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 3 · ❌ SL 6 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 33.3%
+Open right now: 1
+
+All-time: 44 trades · TP 19 · SL 24 · timeout 0 · win rate 44.2%
+❌ NEAR [Combined] -1.16%
+❌ SUI [Claude] -1.16%
+❌ BCH [Me] -1.16%
+✅ BONK [Combined] +1.16%
+❌ QNT [Combined] -1.16%
+❌ GRAM [Me] -1.16%
+✅ ETHFI [Combined] +1.16%
+❌ ETC [Combined] -1.16%
+✅ AAVE [Claude] +1.16%
