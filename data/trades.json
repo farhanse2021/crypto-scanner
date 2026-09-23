@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1790165691355_befcea",
+  "source": "Combined",
+  "symbol": "NEAR",
+  "name": "NEAR Protocol",
+  "rank": 22,
+  "marketCap": 6235553064,
+  "price": 4.76,
+  "score": 95,
+  "adx1h": 20.103629329262514,
+  "adx15m": 26.3929124082121,
+  "adx5m": 30.456632695169624,
+  "rsi": 64.85485348510291,
+  "atrPct": 1.241208054674006,
+  "volRatio": 1.5908589769131805,
+  "marginPct": 7.408030362200757,
+  "btcDom": 56.95937769600818,
+  "ethDom": 11.027929121849596,
+  "usdtDom": 6.081903963565326,
+  "ethBtcRatio": 0.031858509543413176,
+  "totalMcap": 3015863359958,
+  "total2": 1298046357964,
+  "total3": 965459084216,
+  "breadthPct": 73.75,
+  "beatBtc": 59,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 4.704783999999999,
+  "tpPrice": 4.815216,
+  "auto": true,
+  "loggedAt": 1790165691355,
+  "loggedAtPKT": "23 Sep 2026, 17:14:51",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1790145915197_abfbb5",
   "source": "Claude",
   "symbol": "SUI",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1790145915197,
   "loggedAtPKT": "23 Sep 2026, 11:45:15",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790148959999,
+  "closedAtPKT": "23 Sep 2026, 12:35:59",
+  "exitPrice": 1.0214125600000001,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790145915197_b6b20b",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1790145915197,
   "loggedAtPKT": "23 Sep 2026, 11:45:15",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790146019999,
+  "closedAtPKT": "23 Sep 2026, 11:46:59",
+  "exitPrice": 350.38779999999997,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790145915197_75057c",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1790145915197,
   "loggedAtPKT": "23 Sep 2026, 11:45:15",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1790146079999,
+  "closedAtPKT": "23 Sep 2026, 11:47:59",
+  "exitPrice": 4.127328e-06,
+  "pnlPct": 1.16
  },
  {
   "id": "t1790128092922_52e74d",
