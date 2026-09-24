@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1790245596443_4ac9cc",
+  "source": "Me",
+  "symbol": "LTC",
+  "name": "Litecoin",
+  "rank": 24,
+  "marketCap": 5203298439,
+  "price": 67.11,
+  "score": 15,
+  "adx1h": 36.88961712060746,
+  "adx15m": 39.64505946775512,
+  "adx5m": 39.623651983383304,
+  "rsi": 44.68921213957096,
+  "atrPct": 0.84807565076257,
+  "volRatio": 0.49628479813980536,
+  "marginPct": 2.7068676574050343,
+  "btcDom": 57.04730715366495,
+  "ethDom": 10.981075983702725,
+  "usdtDom": 6.257946513305051,
+  "ethBtcRatio": 0.03167287227653799,
+  "totalMcap": 2932177031521,
+  "total2": 1259448994060,
+  "total3": 937464406252,
+  "breadthPct": 15.0,
+  "beatBtc": 12,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 66.331524,
+  "tpPrice": 67.888476,
+  "auto": true,
+  "loggedAt": 1790245596443,
+  "loggedAtPKT": "24 Sep 2026, 15:26:36",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1790227964834_78e876",
   "source": "Claude",
   "symbol": "TAO",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1790227964834,
   "loggedAtPKT": "24 Sep 2026, 10:32:44",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1790236199999,
+  "closedAtPKT": "24 Sep 2026, 12:49:59",
+  "exitPrice": 292.95936000000006,
+  "pnlPct": 1.16
  },
  {
   "id": "t1790227964834_0ee190",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1790227964834,
   "loggedAtPKT": "24 Sep 2026, 10:32:44",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1790230739999,
+  "closedAtPKT": "24 Sep 2026, 11:18:59",
+  "exitPrice": 1.9362024,
+  "pnlPct": 1.16
  },
  {
   "id": "t1790227964834_a082d7",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1790227964834,
   "loggedAtPKT": "24 Sep 2026, 10:32:44",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1790235599999,
+  "closedAtPKT": "24 Sep 2026, 12:39:59",
+  "exitPrice": 2.7222156,
+  "pnlPct": 1.16
  },
  {
   "id": "t1790211169465_844922",
