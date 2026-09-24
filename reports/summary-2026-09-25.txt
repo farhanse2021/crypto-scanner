@@ -1,0 +1,17 @@
+📊 Daily report — 25 Sep 2026, 02:51:53 PKT (last 24h)
+
+Trades opened: 10
+Closed: ✅ TP 6 · ❌ SL 1 · ⏱ timeout 2
+Win rate (24h, TP vs SL): 85.7%
+Open right now: 2
+
+All-time: 54 trades · TP 25 · SL 25 · timeout 2 · win rate 50.0%
+✅ WLFI [Claude] +1.16%
+✅ XLM [Me] +1.16%
+❌ LTC [Me] -1.16%
+✅ TAO [Claude] +1.16%
+✅ DEXE [Me] +1.16%
+✅ MORPHO [Combined] +1.16%
+✅ CAKE [Claude] +1.16%
+⏱ GRAM [Claude] +0.78%
+⏱ NEXO [Claude] +0.23%
