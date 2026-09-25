@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1790313701216_2e23a1",
+  "source": "Combined",
+  "symbol": "AERO",
+  "name": "Aerodrome Finance",
+  "rank": 93,
+  "marketCap": 703752033,
+  "price": 0.7089,
+  "score": 88,
+  "adx1h": 14.771952684719796,
+  "adx15m": 22.196339815645874,
+  "adx5m": 31.684836171671915,
+  "rsi": 71.28161534870651,
+  "atrPct": 0.3444291718653887,
+  "volRatio": 3.1810139563987723,
+  "marginPct": 1.7639141265444087,
+  "btcDom": 56.85594394096001,
+  "ethDom": 10.992166917260597,
+  "usdtDom": 6.1757744094463645,
+  "ethBtcRatio": 0.03181443519365298,
+  "totalMcap": 2975224151759,
+  "total2": 1283632375917,
+  "total3": 956590770993,
+  "breadthPct": 70.0,
+  "beatBtc": 56,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.7006767599999999,
+  "tpPrice": 0.71712324,
+  "auto": true,
+  "loggedAt": 1790313701216,
+  "loggedAtPKT": "25 Sep 2026, 10:21:41",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1790296747740_b65ddb",
   "source": "Claude",
   "symbol": "BCH",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1790296747740,
   "loggedAtPKT": "25 Sep 2026, 05:39:07",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1790298119999,
+  "closedAtPKT": "25 Sep 2026, 06:01:59",
+  "exitPrice": 342.4266,
+  "pnlPct": 1.16
  },
  {
   "id": "t1790296747740_c85d3b",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1790296747740,
   "loggedAtPKT": "25 Sep 2026, 05:39:07",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790299439999,
+  "closedAtPKT": "25 Sep 2026, 06:23:59",
+  "exitPrice": 0.21912828,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790288817798_dc4457",
@@ -141,9 +181,11 @@
   "auto": true,
   "loggedAt": 1790288817798,
   "loggedAtPKT": "25 Sep 2026, 03:26:57",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1790298659999,
+  "closedAtPKT": "25 Sep 2026, 06:10:59",
+  "exitPrice": 0.10992045600000001,
+  "pnlPct": 1.16
  },
  {
   "id": "t1790277401332_8f92de",
