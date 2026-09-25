@@ -1,0 +1,14 @@
+📊 Daily report — 26 Sep 2026, 02:51:32 PKT (last 24h)
+
+Trades opened: 9
+Closed: ✅ TP 3 · ❌ SL 3 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 50.0%
+Open right now: 3
+
+All-time: 63 trades · TP 29 · SL 29 · timeout 2 · win rate 50.0%
+❌ PYTH [Combined] -1.16%
+✅ AERO [Combined] +1.16%
+✅ BCH [Claude] +1.16%
+❌ XLM [Me] -1.16%
+❌ QNT [Me] -1.16%
+✅ POL [Combined] +1.16%
