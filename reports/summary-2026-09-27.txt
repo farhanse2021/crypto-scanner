@@ -1,0 +1,21 @@
+📊 Daily report — 27 Sep 2026, 02:37:46 PKT (last 24h)
+
+Trades opened: 15
+Closed: ✅ TP 4 · ❌ SL 7 · ⏱ timeout 2
+Win rate (24h, TP vs SL): 36.4%
+Open right now: 3
+
+All-time: 78 trades · TP 34 · SL 37 · timeout 4 · win rate 47.9%
+❌ ATOM [Combined] -1.16%
+❌ LINK [Me] -1.16%
+✅ NIGHT [Combined] +1.16%
+⏱ NEXO [Claude] -0.46%
+❌ QNT [Me] -1.16%
+❌ LTC [Combined] -1.16%
+✅ UNI [Claude] +1.16%
+✅ PUMP [Combined] +1.16%
+❌ ENA [Me] -1.16%
+❌ ICP [Claude] -1.16%
+❌ SUI [Me] -1.16%
+✅ VIRTUAL [Combined] +1.16%
+⏱ CAKE [Claude] -0.29%
