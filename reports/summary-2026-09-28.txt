@@ -1,0 +1,16 @@
+📊 Daily report — 28 Sep 2026, 02:40:27 PKT (last 24h)
+
+Trades opened: 10
+Closed: ✅ TP 6 · ❌ SL 1 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 85.7%
+Open right now: 3
+
+All-time: 88 trades · TP 40 · SL 40 · timeout 5 · win rate 50.0%
+✅ GRAM [Me] +1.16%
+✅ NIGHT [Combined] +1.16%
+✅ FET [Claude] +1.16%
+✅ NEAR [Combined] +1.16%
+❌ SKY [Claude] -1.16%
+✅ JST [Claude] +1.16%
+✅ QNT [Me] +1.16%
+⏱ NEXO [Claude] +0.34%
