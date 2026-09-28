@@ -1,0 +1,12 @@
+📊 Daily report — 29 Sep 2026, 04:34:40 PKT (last 24h)
+
+Trades opened: 5
+Closed: ✅ TP 3 · ❌ SL 1 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 75.0%
+Open right now: 1
+
+All-time: 95 trades · TP 46 · SL 43 · timeout 5 · win rate 51.7%
+❌ AVAX [Claude] -1.16%
+✅ XLM [Combined] +1.16%
+✅ HBAR [Claude] +1.16%
+✅ SEI [Me] +1.16%
