@@ -1,0 +1,14 @@
+📊 Daily report — 30 Sep 2026, 03:41:40 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 1 · ❌ SL 5 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 16.7%
+Open right now: 2
+
+All-time: 103 trades · TP 47 · SL 49 · timeout 5 · win rate 49.0%
+❌ AAVE [Me] -1.16%
+❌ ALGO [Claude] -1.16%
+✅ UNI [Me] +1.16%
+❌ PUMP [Combined] -1.16%
+❌ TAO [Claude] -1.16%
+❌ ICP [Combined] -1.16%
