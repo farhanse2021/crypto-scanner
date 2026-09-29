@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1790697989712_0332cd",
+  "source": "Me",
+  "symbol": "AAVE",
+  "name": "Aave",
+  "rank": 49,
+  "marketCap": 2259048591,
+  "price": 169.57,
+  "score": 15,
+  "adx1h": 43.66471681159368,
+  "adx15m": 46.61120435200682,
+  "adx5m": 28.61884314130066,
+  "rsi": 32.628126715130904,
+  "atrPct": 0.8537212402054308,
+  "volRatio": 0.8315685266221104,
+  "marginPct": 3.5850065632338945,
+  "btcDom": 56.665974630938585,
+  "ethDom": 11.025518912733927,
+  "usdtDom": 6.251701384399279,
+  "ethBtcRatio": 0.03201803887522307,
+  "totalMcap": 2940348343456,
+  "total2": 1274171297092,
+  "total3": 949982634384,
+  "breadthPct": 20.0,
+  "beatBtc": 16,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 167.60298799999998,
+  "tpPrice": 171.537012,
+  "auto": true,
+  "loggedAt": 1790697989712,
+  "loggedAtPKT": "29 Sep 2026, 21:06:29",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1790674701929_cb7b9c",
   "source": "Claude",
   "symbol": "ALGO",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1790674701929,
   "loggedAtPKT": "29 Sep 2026, 14:38:21",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790677079999,
+  "closedAtPKT": "29 Sep 2026, 15:17:59",
+  "exitPrice": 0.13135835999999998,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790674701929_8f7630",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1790674701929,
   "loggedAtPKT": "29 Sep 2026, 14:38:21",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1790681699999,
+  "closedAtPKT": "29 Sep 2026, 16:34:59",
+  "exitPrice": 9.1570032,
+  "pnlPct": 1.16
  },
  {
   "id": "t1790674701929_203795",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1790674701929,
   "loggedAtPKT": "29 Sep 2026, 14:38:21",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790675579999,
+  "closedAtPKT": "29 Sep 2026, 14:52:59",
+  "exitPrice": 0.0050734572,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790639696074_24ebcd",
