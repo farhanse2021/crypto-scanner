@@ -1,0 +1,14 @@
+📊 Daily report — 01 Oct 2026, 03:39:51 PKT (last 24h)
+
+Trades opened: 7
+Closed: ✅ TP 4 · ❌ SL 2 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 66.7%
+Open right now: 2
+
+All-time: 110 trades · TP 51 · SL 52 · timeout 5 · win rate 49.5%
+✅ NEAR [Claude] +1.16%
+✅ HYPE [Me] +1.16%
+✅ NIGHT [Me] +1.16%
+✅ BONK [Me] +1.16%
+❌ MORPHO [Combined] -1.16%
+❌ DOT [Claude] -1.16%
