@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1790855404050_fb3062",
+  "source": "Claude",
+  "symbol": "LINK",
+  "name": "Chainlink",
+  "rank": 13,
+  "marketCap": 10748719607,
+  "price": 14.362,
+  "score": 100,
+  "adx1h": 15.081440929345415,
+  "adx15m": 22.915912937903208,
+  "adx5m": 15.938519553193133,
+  "rsi": 59.6495601867996,
+  "atrPct": 0.2920345510006977,
+  "volRatio": 2.155467216414016,
+  "marginPct": -0.3835780107716647,
+  "btcDom": 56.6370222957372,
+  "ethDom": 11.084815339803242,
+  "usdtDom": 6.17167378349602,
+  "ethBtcRatio": 0.03220481913360411,
+  "totalMcap": 2978368925421,
+  "total2": 1291509453081,
+  "total3": 961362757560,
+  "breadthPct": 30.0,
+  "beatBtc": 24,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 14.1954008,
+  "tpPrice": 14.5285992,
+  "auto": true,
+  "loggedAt": 1790855404050,
+  "loggedAtPKT": "01 Oct 2026, 16:50:04",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1790833588391_7e2b28",
   "source": "Claude",
   "symbol": "PUMP",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1790833588391,
   "loggedAtPKT": "01 Oct 2026, 10:46:28",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1790835779999,
+  "closedAtPKT": "01 Oct 2026, 11:22:59",
+  "exitPrice": 0.0059299992,
+  "pnlPct": 1.16
  },
  {
   "id": "t1790833588391_7b35df",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1790833588391,
   "loggedAtPKT": "01 Oct 2026, 10:46:28",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790833799999,
+  "closedAtPKT": "01 Oct 2026, 10:49:59",
+  "exitPrice": 0.041641291999999996,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790833588391_86e285",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1790833588391,
   "loggedAtPKT": "01 Oct 2026, 10:46:28",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790839079999,
+  "closedAtPKT": "01 Oct 2026, 12:17:59",
+  "exitPrice": 0.20440112,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790813478302_e88164",
