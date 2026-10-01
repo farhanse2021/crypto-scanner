@@ -1,0 +1,14 @@
+📊 Daily report — 02 Oct 2026, 03:56:06 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 1 · ❌ SL 5 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 16.7%
+Open right now: 2
+
+All-time: 118 trades · TP 52 · SL 59 · timeout 5 · win rate 46.8%
+❌ LINK [Claude] -1.16%
+✅ PUMP [Claude] +1.16%
+❌ NIGHT [Me] -1.16%
+❌ ARB [Combined] -1.16%
+❌ ETHFI [Claude] -1.16%
+❌ AERO [Me] -1.16%
