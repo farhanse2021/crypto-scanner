@@ -1,0 +1,16 @@
+📊 Daily report — 03 Oct 2026, 03:37:42 PKT (last 24h)
+
+Trades opened: 9
+Closed: ✅ TP 3 · ❌ SL 4 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 42.9%
+Open right now: 3
+
+All-time: 127 trades · TP 55 · SL 63 · timeout 6 · win rate 46.6%
+❌ TAO [Claude] -1.16%
+❌ SKY [Me] -1.16%
+❌ SUI [Combined] -1.16%
+✅ NEXO [Claude] +1.16%
+✅ HYPE [Combined] +1.16%
+✅ AAVE [Combined] +1.16%
+❌ GRAM [Me] -1.16%
+⏱ XRP [Claude] -0.86%
