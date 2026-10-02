@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1790966444426_841779",
+  "source": "Me",
+  "symbol": "JST",
+  "name": "JUST",
+  "rank": 76,
+  "marketCap": 1070851151,
+  "price": 0.13062,
+  "score": 62,
+  "adx1h": 36.50891012749596,
+  "adx15m": 29.780996813603508,
+  "adx5m": 42.594919196076305,
+  "rsi": 65.40237821282926,
+  "atrPct": 0.21852005768134,
+  "volRatio": 1.4927223546819182,
+  "marginPct": 1.5831788733747594,
+  "btcDom": 56.95780800741809,
+  "ethDom": 10.969008560021996,
+  "usdtDom": 6.1795077169715835,
+  "ethBtcRatio": 0.03169637354823418,
+  "totalMcap": 2978124111158,
+  "total2": 1281849897702,
+  "total3": 955179209021,
+  "breadthPct": 30.0,
+  "beatBtc": 24,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.12910480800000002,
+  "tpPrice": 0.132135192,
+  "auto": true,
+  "loggedAt": 1790966444426,
+  "loggedAtPKT": "02 Oct 2026, 23:40:44",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1790948354329_6f9787",
   "source": "Claude",
   "symbol": "TAO",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1790948354329,
   "loggedAtPKT": "02 Oct 2026, 18:39:14",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790949719999,
+  "closedAtPKT": "02 Oct 2026, 19:01:59",
+  "exitPrice": 311.54368,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790948354329_8fc6ea",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1790948354329,
   "loggedAtPKT": "02 Oct 2026, 18:39:14",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790949539999,
+  "closedAtPKT": "02 Oct 2026, 18:58:59",
+  "exitPrice": 0.09080430799999999,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790948354329_5354ca",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1790948354329,
   "loggedAtPKT": "02 Oct 2026, 18:39:14",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1790949479999,
+  "closedAtPKT": "02 Oct 2026, 18:57:59",
+  "exitPrice": 1.19566748,
+  "pnlPct": -1.16
  },
  {
   "id": "t1790924398484_3e4255",
