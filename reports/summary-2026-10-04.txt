@@ -1,0 +1,20 @@
+📊 Daily report — 04 Oct 2026, 02:50:18 PKT (last 24h)
+
+Trades opened: 14
+Closed: ✅ TP 5 · ❌ SL 5 · ⏱ timeout 2
+Win rate (24h, TP vs SL): 50.0%
+Open right now: 3
+
+All-time: 139 trades · TP 60 · SL 68 · timeout 8 · win rate 46.9%
+❌ LTC [Claude] -1.16%
+⏱ PENGU [Me] -0.27%
+❌ JUP [Combined] -1.16%
+✅ WLD [Me] +1.16%
+❌ FIL [Combined] -1.16%
+⏱ SOL [Claude] +0.07%
+❌ LINK [Combined] -1.16%
+✅ AAVE [Claude] +1.16%
+❌ NIGHT [Me] -1.16%
+✅ BCH [Claude] +1.16%
+✅ JST [Me] +1.16%
+✅ JST [Me] +1.16%
