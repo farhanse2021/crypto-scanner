@@ -1,0 +1,19 @@
+📊 Daily report — 05 Oct 2026, 02:59:49 PKT (last 24h)
+
+Trades opened: 11
+Closed: ✅ TP 5 · ❌ SL 5 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 50.0%
+Open right now: 3
+
+All-time: 150 trades · TP 65 · SL 73 · timeout 9 · win rate 47.1%
+❌ SUI [Combined] -1.16%
+✅ DOGE [Claude] +1.16%
+✅ PUMP [Me] +1.16%
+❌ GRAM [Claude] -1.16%
+✅ AERO [Me] +1.16%
+❌ NEAR [Claude] -1.16%
+❌ SKY [Me] -1.16%
+✅ TIA [Combined] +1.16%
+❌ MORPHO [Me] -1.16%
+⏱ BNB [Me] -0.23%
+✅ ENA [Combined] +1.16%
