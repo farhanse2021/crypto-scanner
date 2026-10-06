@@ -1,0 +1,15 @@
+📊 Daily report — 07 Oct 2026, 03:48:57 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 3 · ❌ SL 4 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 42.9%
+Open right now: 2
+
+All-time: 165 trades · TP 74 · SL 80 · timeout 9 · win rate 48.1%
+✅ ONDO [Claude] +1.16%
+❌ ZEC [Me] -1.16%
+✅ QNT [Combined] +1.16%
+❌ TAO [Claude] -1.16%
+❌ SEI [Claude] -1.16%
+✅ FIL [Me] +1.16%
+❌ HYPE [Me] -1.16%
