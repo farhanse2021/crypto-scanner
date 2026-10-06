@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1791274185842_a07e4b",
+  "source": "Claude",
+  "symbol": "TAO",
+  "name": "Bittensor",
+  "rank": 35,
+  "marketCap": 3447074930,
+  "price": 304.8,
+  "score": 94,
+  "adx1h": 12.512493143082125,
+  "adx15m": 14.209396976404724,
+  "adx5m": 18.296329503208774,
+  "rsi": 67.40413005322222,
+  "atrPct": 0.2522096565336036,
+  "volRatio": 2.3438494521292292,
+  "marginPct": 0.48604596613998663,
+  "btcDom": 56.93612001228027,
+  "ethDom": 10.949215891126105,
+  "usdtDom": 6.0915355949112815,
+  "ethBtcRatio": 0.03163948968753283,
+  "totalMcap": 3021552844356,
+  "total2": 1301197890659,
+  "total3": 970361546466,
+  "breadthPct": 41.25,
+  "beatBtc": 33,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 301.26432,
+  "tpPrice": 308.33568,
+  "auto": true,
+  "loggedAt": 1791274185842,
+  "loggedAtPKT": "06 Oct 2026, 13:09:45",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1791251174735_2e04bb",
   "source": "Claude",
   "symbol": "SEI",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1791251174735,
   "loggedAtPKT": "06 Oct 2026, 06:46:14",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1791254159999,
+  "closedAtPKT": "06 Oct 2026, 07:35:59",
+  "exitPrice": 0.07373463999999999,
+  "pnlPct": -1.16
  },
  {
   "id": "t1791251174735_bed17b",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1791251174735,
   "loggedAtPKT": "06 Oct 2026, 06:46:14",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1791256859999,
+  "closedAtPKT": "06 Oct 2026, 08:20:59",
+  "exitPrice": 1.16758872,
+  "pnlPct": 1.16
  },
  {
   "id": "t1791235302297_0b6a33",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1791235302297,
   "loggedAtPKT": "06 Oct 2026, 02:21:42",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1791256739999,
+  "closedAtPKT": "06 Oct 2026, 08:18:59",
+  "exitPrice": 93.660784,
+  "pnlPct": -1.16
  },
  {
   "id": "t1791235302297_db00ff",
