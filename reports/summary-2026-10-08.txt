@@ -1,0 +1,12 @@
+📊 Daily report — 08 Oct 2026, 04:20:38 PKT (last 24h)
+
+Trades opened: 6
+Closed: ✅ TP 2 · ❌ SL 1 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 66.7%
+Open right now: 2
+
+All-time: 171 trades · TP 76 · SL 83 · timeout 10 · win rate 47.8%
+✅ SEI [Claude] +1.16%
+✅ PUMP [Claude] +1.16%
+⏱ JST [Claude] -0.15%
+❌ AVAX [Me] -1.16%
