@@ -1,0 +1,14 @@
+📊 Daily report — 09 Oct 2026, 04:34:31 PKT (last 24h)
+
+Trades opened: 7
+Closed: ✅ TP 2 · ❌ SL 4 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 33.3%
+Open right now: 2
+
+All-time: 178 trades · TP 79 · SL 87 · timeout 10 · win rate 47.6%
+❌ LUNC [Claude] -1.16%
+✅ PYTH [Me] +1.16%
+✅ ETHFI [Claude] +1.16%
+❌ CAKE [Me] -1.16%
+❌ ALGO [Combined] -1.16%
+❌ BONK [Me] -1.16%
