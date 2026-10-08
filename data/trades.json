@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1791444041318_6bdb92",
+  "source": "Claude",
+  "symbol": "ETHFI",
+  "name": "ether.fi",
+  "rank": 94,
+  "marketCap": 699741899,
+  "price": 0.7289,
+  "score": 100,
+  "adx1h": 14.305112728035551,
+  "adx15m": 15.737441933083563,
+  "adx5m": 14.451383490890851,
+  "rsi": 63.1628995282144,
+  "atrPct": 0.5877497455498598,
+  "volRatio": 4.267879329976135,
+  "marginPct": 0.7958316893945957,
+  "btcDom": 57.02396493791154,
+  "ethDom": 10.71998553476048,
+  "usdtDom": 6.287227272306377,
+  "ethBtcRatio": 0.03093447478688051,
+  "totalMcap": 2926406561322,
+  "total2": 1257653509853,
+  "total3": 943943149791,
+  "breadthPct": 35.0,
+  "beatBtc": 28,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.7204447599999999,
+  "tpPrice": 0.7373552400000001,
+  "auto": true,
+  "loggedAt": 1791444041318,
+  "loggedAtPKT": "08 Oct 2026, 12:20:41",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1791421901919_9ad9ee",
   "source": "Me",
   "symbol": "CAKE",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1791421901919,
   "loggedAtPKT": "08 Oct 2026, 06:11:41",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1791429359999,
+  "closedAtPKT": "08 Oct 2026, 08:15:59",
+  "exitPrice": 2.2476216,
+  "pnlPct": -1.16
  },
  {
   "id": "t1791421901919_1ae03e",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1791421901919,
   "loggedAtPKT": "08 Oct 2026, 06:11:41",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1791424439999,
+  "closedAtPKT": "08 Oct 2026, 06:53:59",
+  "exitPrice": 0.11841032,
+  "pnlPct": -1.16
  },
  {
   "id": "t1791408584462_1a8148",
@@ -141,9 +181,11 @@
   "auto": true,
   "loggedAt": 1791408584462,
   "loggedAtPKT": "08 Oct 2026, 02:29:44",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1791429719999,
+  "closedAtPKT": "08 Oct 2026, 08:21:59",
+  "exitPrice": 3.4594e-06,
+  "pnlPct": -1.16
  },
  {
   "id": "t1791390704336_682c9d",
