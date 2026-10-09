@@ -1,0 +1,14 @@
+📊 Daily report — 10 Oct 2026, 03:56:15 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 4 · ❌ SL 2 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 66.7%
+Open right now: 2
+
+All-time: 186 trades · TP 85 · SL 89 · timeout 10 · win rate 48.9%
+❌ ATOM [Me] -1.16%
+✅ GRAM [Combined] +1.16%
+✅ SKY [Claude] +1.16%
+❌ SUI [Me] -1.16%
+✅ AVAX [Combined] +1.16%
+✅ WLD [Claude] +1.16%
