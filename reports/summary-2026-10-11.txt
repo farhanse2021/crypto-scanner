@@ -1,0 +1,20 @@
+📊 Daily report — 11 Oct 2026, 03:02:09 PKT (last 24h)
+
+Trades opened: 14
+Closed: ✅ TP 6 · ❌ SL 3 · ⏱ timeout 3
+Win rate (24h, TP vs SL): 66.7%
+Open right now: 3
+
+All-time: 200 trades · TP 91 · SL 93 · timeout 13 · win rate 49.5%
+✅ AERO [Me] +1.16%
+✅ TIA [Combined] +1.16%
+❌ NEAR [Me] -1.16%
+⏱ LINK [Combined] -0.53%
+✅ RENDER [Claude] +1.16%
+❌ WLD [Me] -1.16%
+❌ ADA [Combined] -1.16%
+⏱ NEXO [Claude] -0.12%
+⏱ HBAR [Combined] -0.02%
+✅ SEI [Claude] +1.16%
+✅ DOT [Me] +1.16%
+✅ DEXE [Combined] +1.16%
