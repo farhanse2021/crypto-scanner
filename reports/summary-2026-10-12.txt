@@ -1,0 +1,13 @@
+📊 Daily report — 12 Oct 2026, 03:31:32 PKT (last 24h)
+
+Trades opened: 6
+Closed: ✅ TP 1 · ❌ SL 2 · ⏱ timeout 2
+Win rate (24h, TP vs SL): 33.3%
+Open right now: 3
+
+All-time: 206 trades · TP 92 · SL 96 · timeout 15 · win rate 48.9%
+❌ ENA [Combined] -1.16%
+⏱ LUNC [Claude] -0.31%
+❌ INJ [Me] -1.16%
+⏱ NEXO [Claude] -0.24%
+✅ ARB [Combined] +1.16%
