@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1791700062110_8a5f17",
+  "source": "Claude",
+  "symbol": "LUNC",
+  "name": "Terra Classic",
+  "rank": 159,
+  "marketCap": 283718357,
+  "price": 5.144e-05,
+  "score": 93,
+  "adx1h": 12.997941412353347,
+  "adx15m": 17.720136257061412,
+  "adx5m": 34.83009372578734,
+  "rsi": 64.14722460536137,
+  "atrPct": 0.17679547206881746,
+  "volRatio": 2.1019193864365096,
+  "marginPct": -0.07749019795333843,
+  "btcDom": 57.36948456722561,
+  "ethDom": 10.511983046524609,
+  "usdtDom": 6.3341570194102745,
+  "ethBtcRatio": 0.030152110503097653,
+  "totalMcap": 2906273703476,
+  "total2": 1238959459679,
+  "total3": 933452460684,
+  "breadthPct": 27.500000000000004,
+  "beatBtc": 22,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 5.0843296e-05,
+  "tpPrice": 5.203670400000001e-05,
+  "auto": true,
+  "loggedAt": 1791700062110,
+  "loggedAtPKT": "11 Oct 2026, 11:27:42",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1791679394120_187ec3",
   "source": "Me",
   "symbol": "INJ",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1791679394120,
   "loggedAtPKT": "11 Oct 2026, 05:43:14",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1791680519999,
+  "closedAtPKT": "11 Oct 2026, 06:01:59",
+  "exitPrice": 7.7688239999999995,
+  "pnlPct": -1.16
  },
  {
   "id": "t1791669610626_e7a5d8",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1791669610626,
   "loggedAtPKT": "11 Oct 2026, 03:00:10",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "timeout",
+  "closedAt": 1791700062110,
+  "closedAtPKT": "11 Oct 2026, 11:27:42",
+  "exitPrice": 0.841,
+  "pnlPct": -0.237
  },
  {
   "id": "t1791669610626_ef7db7",
@@ -141,9 +181,11 @@
   "auto": true,
   "loggedAt": 1791669610626,
   "loggedAtPKT": "11 Oct 2026, 03:00:10",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1791681959999,
+  "closedAtPKT": "11 Oct 2026, 06:25:59",
+  "exitPrice": 0.192204,
+  "pnlPct": 1.16
  },
  {
   "id": "t1791657895220_f17b0b",
