@@ -1,0 +1,13 @@
+📊 Daily report — 14 Oct 2026, 04:08:26 PKT (last 24h)
+
+Trades opened: 7
+Closed: ✅ TP 4 · ❌ SL 1 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 80.0%
+Open right now: 2
+
+All-time: 218 trades · TP 97 · SL 102 · timeout 17 · win rate 48.7%
+✅ AERO [Claude] +1.16%
+✅ WLFI [Claude] +1.16%
+❌ PEPE [Me] -1.16%
+✅ LTC [Claude] +1.16%
+✅ TIA [Me] +1.16%
