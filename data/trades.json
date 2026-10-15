@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1792025010667_955f3e",
+  "source": "Me",
+  "symbol": "AERO",
+  "name": "Aerodrome Finance",
+  "rank": 83,
+  "marketCap": 898987004,
+  "price": 0.8942,
+  "score": 15,
+  "adx1h": 18.404443603898837,
+  "adx15m": 34.48841269604531,
+  "adx5m": 27.459008055640997,
+  "rsi": 33.60152737613733,
+  "atrPct": 0.3939523857286819,
+  "volRatio": 0.46892442221938063,
+  "marginPct": 1.552079117698701,
+  "btcDom": 57.66606492311994,
+  "ethDom": 10.39808674479201,
+  "usdtDom": 6.468220460758321,
+  "ethBtcRatio": 0.029672543154178107,
+  "totalMcap": 2842864488797,
+  "total2": 1203496407011,
+  "total3": 907892891429,
+  "breadthPct": 22.5,
+  "beatBtc": 18,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.88382728,
+  "tpPrice": 0.90457272,
+  "auto": true,
+  "loggedAt": 1792025010667,
+  "loggedAtPKT": "15 Oct 2026, 05:43:30",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1792016937196_2df2c8",
   "source": "Claude",
   "symbol": "ETHFI",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1792016937196,
   "loggedAtPKT": "15 Oct 2026, 03:28:57",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1792022459999,
+  "closedAtPKT": "15 Oct 2026, 05:00:59",
+  "exitPrice": 0.64165788,
+  "pnlPct": 1.16
  },
  {
   "id": "t1792016937196_9d32ba",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1792016937196,
   "loggedAtPKT": "15 Oct 2026, 03:28:57",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1792022519999,
+  "closedAtPKT": "15 Oct 2026, 05:01:59",
+  "exitPrice": 0.08466634399999999,
+  "pnlPct": -1.16
  },
  {
   "id": "t1792006111928_72e9b4",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1792006111928,
   "loggedAtPKT": "15 Oct 2026, 00:28:31",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1792022699999,
+  "closedAtPKT": "15 Oct 2026, 05:04:59",
+  "exitPrice": 0.82172268,
+  "pnlPct": 1.16
  },
  {
   "id": "t1791991219239_53add2",
