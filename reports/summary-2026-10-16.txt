@@ -1,0 +1,18 @@
+📊 Daily report — 16 Oct 2026, 02:50:48 PKT (last 24h)
+
+Trades opened: 12
+Closed: ✅ TP 7 · ❌ SL 3 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 70.0%
+Open right now: 3
+
+All-time: 237 trades · TP 106 · SL 111 · timeout 17 · win rate 48.8%
+✅ HBAR [Claude] +1.16%
+✅ ONDO [Combined] +1.16%
+✅ ADA [Claude] +1.16%
+✅ UNI [Me] +1.16%
+✅ CRV [Me] +1.16%
+❌ GRAM [Claude] -1.16%
+❌ AERO [Me] -1.16%
+✅ ETHFI [Claude] +1.16%
+❌ PYTH [Me] -1.16%
+✅ APT [Claude] +1.16%
