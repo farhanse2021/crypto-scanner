@@ -1,0 +1,19 @@
+📊 Daily report — 17 Oct 2026, 02:46:49 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 7 · ❌ SL 3 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 70.0%
+Open right now: 0
+
+All-time: 245 trades · TP 113 · SL 114 · timeout 18 · win rate 49.8%
+✅ FIL [Claude] +1.16%
+❌ ATOM [Claude] -1.16%
+❌ SUI [Combined] -1.16%
+✅ MORPHO [Claude] +1.16%
+✅ TIA [Me] +1.16%
+✅ ETHFI [Combined] +1.16%
+✅ INJ [Me] +1.16%
+✅ DOT [Combined] +1.16%
+❌ ETH [Me] -1.16%
+✅ AAVE [Combined] +1.16%
+⏱ DEXE [Me] -1.12%
