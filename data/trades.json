@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1792221182308_1f627d",
+  "source": "Claude",
+  "symbol": "SKY",
+  "name": "Sky",
+  "rank": 63,
+  "marketCap": 1666650181,
+  "price": 0.07124,
+  "score": 93,
+  "adx1h": 16.249075221872857,
+  "adx15m": 10.025016938244505,
+  "adx5m": 15.853592922020349,
+  "rsi": 60.277505413349104,
+  "atrPct": 0.1474121348618348,
+  "volRatio": 3.1670257633390375,
+  "marginPct": 0.3138523296170192,
+  "btcDom": 57.698389639176206,
+  "ethDom": 10.450959772139807,
+  "usdtDom": 6.458889144708441,
+  "ethBtcRatio": 0.029804635761589402,
+  "totalMcap": 2840335555059,
+  "total2": 1201507679441,
+  "total3": 904665353188,
+  "breadthPct": 25.0,
+  "beatBtc": 20,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.070413616,
+  "tpPrice": 0.072066384,
+  "auto": true,
+  "loggedAt": 1792221182308,
+  "loggedAtPKT": "17 Oct 2026, 12:13:02",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1792205594114_0366f4",
   "source": "Me",
   "symbol": "TIA",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1792205594114,
   "loggedAtPKT": "17 Oct 2026, 07:53:14",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1792206239999,
+  "closedAtPKT": "17 Oct 2026, 08:03:59",
+  "exitPrice": 0.6992929999999999,
+  "pnlPct": -1.16
  },
  {
   "id": "t1792205594114_79fa0e",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1792205594114,
   "loggedAtPKT": "17 Oct 2026, 07:53:14",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1792207619999,
+  "closedAtPKT": "17 Oct 2026, 08:26:59",
+  "exitPrice": 0.52866216,
+  "pnlPct": 1.16
  },
  {
   "id": "t1792195087225_281316",
@@ -141,9 +181,11 @@
   "auto": true,
   "loggedAt": 1792187454099,
   "loggedAtPKT": "17 Oct 2026, 02:50:54",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "timeout",
+  "closedAt": 1792221182308,
+  "closedAtPKT": "17 Oct 2026, 12:13:02",
+  "exitPrice": 7.92,
+  "pnlPct": 0.0
  },
  {
   "id": "t1792187454099_1184da",
