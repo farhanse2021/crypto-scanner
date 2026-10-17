@@ -1,0 +1,19 @@
+📊 Daily report — 18 Oct 2026, 02:03:13 PKT (last 24h)
+
+Trades opened: 13
+Closed: ✅ TP 4 · ❌ SL 5 · ⏱ timeout 2
+Win rate (24h, TP vs SL): 44.4%
+Open right now: 2
+
+All-time: 258 trades · TP 117 · SL 119 · timeout 20 · win rate 49.6%
+✅ GRAM [Claude] +1.16%
+❌ ALGO [Claude] -1.16%
+✅ CAKE [Me] +1.16%
+⏱ WLFI [Claude] -0.17%
+✅ DEXE [Me] +1.16%
+❌ SKY [Claude] -1.16%
+❌ TIA [Me] -1.16%
+✅ WLD [Combined] +1.16%
+❌ ICP [Claude] -1.16%
+⏱ ETC [Claude] +0.00%
+❌ PUMP [Me] -1.16%
