@@ -1,0 +1,14 @@
+📊 Daily report — 19 Oct 2026, 02:06:05 PKT (last 24h)
+
+Trades opened: 5
+Closed: ✅ TP 2 · ❌ SL 4 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 33.3%
+Open right now: 1
+
+All-time: 263 trades · TP 119 · SL 123 · timeout 20 · win rate 49.2%
+❌ FIL [Claude] -1.16%
+✅ HBAR [Me] +1.16%
+❌ ETHFI [Claude] -1.16%
+✅ MORPHO [Claude] +1.16%
+❌ UNI [Claude] -1.16%
+❌ GRAM [Me] -1.16%
