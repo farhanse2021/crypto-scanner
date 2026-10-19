@@ -1,0 +1,16 @@
+📊 Daily report — 20 Oct 2026, 03:39:36 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 5 · ❌ SL 3 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 62.5%
+Open right now: 1
+
+All-time: 272 trades · TP 124 · SL 127 · timeout 20 · win rate 49.4%
+❌ PEPE [Me] -1.16%
+❌ ETHFI [Me] -1.16%
+✅ ARB [Combined] +1.16%
+❌ TRUMP [Me] -1.16%
+✅ QNT [Combined] +1.16%
+✅ JUP [Me] +1.16%
+✅ CRV [Combined] +1.16%
+✅ JST [Claude] +1.16%
