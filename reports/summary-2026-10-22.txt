@@ -1,0 +1,15 @@
+📊 Daily report — 22 Oct 2026, 03:00:36 PKT (last 24h)
+
+Trades opened: 9
+Closed: ✅ TP 4 · ❌ SL 2 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 66.7%
+Open right now: 3
+
+All-time: 290 trades · TP 135 · SL 131 · timeout 21 · win rate 50.8%
+✅ ZEC [Me] +1.16%
+✅ DASH [Combined] +1.16%
+✅ JUP [Claude] +1.16%
+❌ SKY [Me] -1.16%
+✅ ARB [Combined] +1.16%
+❌ AERO [Combined] -1.16%
+⏱ XRP [Claude] +0.37%
