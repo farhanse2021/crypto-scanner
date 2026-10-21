@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1792563678816_aaf08e",
+  "source": "Claude",
+  "symbol": "JUP",
+  "name": "Jupiter",
+  "rank": 75,
+  "marketCap": 1043683442,
+  "price": 0.3148,
+  "score": 95,
+  "adx1h": 51.63892734162439,
+  "adx15m": 10.763838219429664,
+  "adx5m": 18.757218662816815,
+  "rsi": 62.48946330985548,
+  "atrPct": 0.20077633335685474,
+  "volRatio": 1.8509129414059504,
+  "marginPct": 0.01752716913230313,
+  "btcDom": 57.91119583475158,
+  "ethDom": 10.381010592138214,
+  "usdtDom": 6.375562831714656,
+  "ethBtcRatio": 0.029495719976269173,
+  "totalMcap": 2866804551181,
+  "total2": 1206603753347,
+  "total3": 909000469233,
+  "breadthPct": 73.75,
+  "beatBtc": 59,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.31114832000000003,
+  "tpPrice": 0.31845168,
+  "auto": true,
+  "loggedAt": 1792563678816,
+  "loggedAtPKT": "21 Oct 2026, 11:21:18",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1792546174154_ba7ff2",
   "source": "Me",
   "symbol": "SKY",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1792546174154,
   "loggedAtPKT": "21 Oct 2026, 06:29:34",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1792549259999,
+  "closedAtPKT": "21 Oct 2026, 07:20:59",
+  "exitPrice": 0.076235292,
+  "pnlPct": -1.16
  },
  {
   "id": "t1792546174154_0b79d6",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1792546174154,
   "loggedAtPKT": "21 Oct 2026, 06:29:34",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1792547399999,
+  "closedAtPKT": "21 Oct 2026, 06:49:59",
+  "exitPrice": 0.19584576,
+  "pnlPct": 1.16
  },
  {
   "id": "t1792537619040_ce2fee",
@@ -141,9 +181,11 @@
   "auto": true,
   "loggedAt": 1792526598345,
   "loggedAtPKT": "21 Oct 2026, 01:03:18",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "timeout",
+  "closedAt": 1792563678816,
+  "closedAtPKT": "21 Oct 2026, 11:21:18",
+  "exitPrice": 1.3343,
+  "pnlPct": 0.369
  },
  {
   "id": "t1792526598345_d7ac89",
