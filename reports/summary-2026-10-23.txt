@@ -1,0 +1,12 @@
+📊 Daily report — 23 Oct 2026, 02:56:52 PKT (last 24h)
+
+Trades opened: 3
+Closed: ✅ TP 1 · ❌ SL 3 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 25.0%
+Open right now: 0
+
+All-time: 293 trades · TP 138 · SL 134 · timeout 21 · win rate 50.7%
+✅ SKY [Claude] +1.16%
+❌ INJ [Claude] -1.16%
+❌ AERO [Claude] -1.16%
+❌ ENA [Me] -1.16%
