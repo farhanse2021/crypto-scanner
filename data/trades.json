@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1792773035133_0d2d25",
+  "source": "Claude",
+  "symbol": "BCH",
+  "name": "Bitcoin Cash",
+  "rank": 22,
+  "marketCap": 5750978062,
+  "price": 287.2,
+  "score": 87,
+  "adx1h": 34.29385648985459,
+  "adx15m": 17.042568867870596,
+  "adx5m": 16.570338154849345,
+  "rsi": 57.919014194097386,
+  "atrPct": 0.32824134234430463,
+  "volRatio": 1.6219378327722185,
+  "marginPct": 0.9693823790340309,
+  "btcDom": 57.83223873446196,
+  "ethDom": 10.347310172061693,
+  "usdtDom": 6.447794114411767,
+  "ethBtcRatio": 0.029441429939355248,
+  "totalMcap": 2831440543254,
+  "total2": 1193955088655,
+  "total3": 900977153307,
+  "breadthPct": 58.75,
+  "beatBtc": 47,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 283.86848,
+  "tpPrice": 290.53152,
+  "auto": true,
+  "loggedAt": 1792773035133,
+  "loggedAtPKT": "23 Oct 2026, 21:30:35",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1792756735966_610ecb",
   "source": "Me",
   "symbol": "PEPE",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1792756735966,
   "loggedAtPKT": "23 Oct 2026, 16:58:55",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1792757999999,
+  "closedAtPKT": "23 Oct 2026, 17:19:59",
+  "exitPrice": 5.10858e-06,
+  "pnlPct": 1.16
  },
  {
   "id": "t1792737216807_debde9",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1792737216807,
   "loggedAtPKT": "23 Oct 2026, 11:33:36",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1792765019999,
+  "closedAtPKT": "23 Oct 2026, 19:16:59",
+  "exitPrice": 0.65718716,
+  "pnlPct": -1.16
  },
  {
   "id": "t1792737216807_47534c",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1792737216807,
   "loggedAtPKT": "23 Oct 2026, 11:33:36",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "timeout",
+  "closedAt": 1792773035133,
+  "closedAtPKT": "23 Oct 2026, 21:30:35",
+  "exitPrice": 2.188,
+  "pnlPct": 0.783
  },
  {
   "id": "t1792720147140_ce2aee",
