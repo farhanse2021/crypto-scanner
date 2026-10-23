@@ -1,0 +1,15 @@
+📊 Daily report — 24 Oct 2026, 02:43:29 PKT (last 24h)
+
+Trades opened: 9
+Closed: ✅ TP 3 · ❌ SL 2 · ⏱ timeout 2
+Win rate (24h, TP vs SL): 60.0%
+Open right now: 2
+
+All-time: 302 trades · TP 141 · SL 136 · timeout 23 · win rate 50.9%
+❌ BCH [Claude] -1.16%
+✅ PEPE [Me] +1.16%
+❌ VIRTUAL [Claude] -1.16%
+⏱ CAKE [Me] +0.78%
+✅ AVAX [Claude] +1.16%
+⏱ ETC [Me] +0.51%
+✅ DASH [Combined] +1.16%
