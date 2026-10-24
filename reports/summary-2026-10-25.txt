@@ -1,0 +1,12 @@
+📊 Daily report — 25 Oct 2026, 02:15:29 PKT (last 24h)
+
+Trades opened: 6
+Closed: ✅ TP 0 · ❌ SL 3 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 0.0%
+Open right now: 3
+
+All-time: 308 trades · TP 141 · SL 140 · timeout 24 · win rate 50.2%
+❌ PENGU [Claude] -1.16%
+⏱ SUN [Claude] -0.43%
+❌ ALGO [Claude] -1.16%
+❌ NEXO [Claude] -1.16%
