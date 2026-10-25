@@ -1,0 +1,18 @@
+📊 Daily report — 26 Oct 2026, 02:16:29 PKT (last 24h)
+
+Trades opened: 10
+Closed: ✅ TP 5 · ❌ SL 4 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 55.6%
+Open right now: 2
+
+All-time: 318 trades · TP 147 · SL 144 · timeout 25 · win rate 50.5%
+✅ ALGO [Me] +1.16%
+✅ NEAR [Combined] +1.16%
+❌ TIA [Claude] -1.16%
+❌ ZEC [Me] -1.16%
+✅ QNT [Me] +1.16%
+⏱ BNB [Combined] -0.05%
+❌ SHIB [Claude] -1.16%
+❌ RENDER [Me] -1.16%
+✅ DOT [Claude] +1.16%
+✅ RENDER [Claude] +1.16%
