@@ -1,0 +1,14 @@
+📊 Daily report — 27 Oct 2026, 03:53:52 PKT (last 24h)
+
+Trades opened: 5
+Closed: ✅ TP 3 · ❌ SL 2 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 60.0%
+Open right now: 1
+
+All-time: 325 trades · TP 150 · SL 148 · timeout 26 · win rate 50.3%
+⏱ ASTER [Claude] +0.48%
+✅ QNT [Me] +1.16%
+✅ PYTH [Me] +1.16%
+❌ NEXO [Claude] -1.16%
+✅ CAKE [Claude] +1.16%
+❌ UNI [Me] -1.16%
