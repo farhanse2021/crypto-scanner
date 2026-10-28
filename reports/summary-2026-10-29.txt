@@ -1,0 +1,12 @@
+📊 Daily report — 29 Oct 2026, 03:54:13 PKT (last 24h)
+
+Trades opened: 5
+Closed: ✅ TP 1 · ❌ SL 2 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 33.3%
+Open right now: 3
+
+All-time: 338 trades · TP 157 · SL 151 · timeout 27 · win rate 51.0%
+❌ ADA [Claude] -1.16%
+❌ APT [Combined] -1.16%
+✅ NIGHT [Me] +1.16%
+⏱ POL [Combined] -0.01%
