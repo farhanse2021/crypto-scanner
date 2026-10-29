@@ -1,0 +1,14 @@
+📊 Daily report — 30 Oct 2026, 04:01:06 PKT (last 24h)
+
+Trades opened: 6
+Closed: ✅ TP 1 · ❌ SL 4 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 20.0%
+Open right now: 1
+
+All-time: 344 trades · TP 160 · SL 155 · timeout 28 · win rate 50.8%
+✅ HYPE [Me] +1.16%
+❌ TAO [Combined] -1.16%
+❌ CRV [Claude] -1.16%
+❌ ZEC [Claude] -1.16%
+❌ PENGU [Me] -1.16%
+⏱ JST [Claude] +0.14%
