@@ -1,0 +1,16 @@
+📊 Daily report — 31 Oct 2026, 03:40:53 PKT (last 24h)
+
+Trades opened: 11
+Closed: ✅ TP 0 · ❌ SL 8 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 0.0%
+Open right now: 3
+
+All-time: 355 trades · TP 160 · SL 164 · timeout 28 · win rate 49.4%
+❌ SKY [Claude] -1.16%
+❌ FIL [Me] -1.16%
+❌ CRV [Claude] -1.16%
+❌ DASH [Combined] -1.16%
+❌ HBAR [Me] -1.16%
+❌ WLFI [Combined] -1.16%
+❌ TRX [Claude] -1.16%
+❌ SUN [Me] -1.16%
