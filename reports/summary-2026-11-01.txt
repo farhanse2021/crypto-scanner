@@ -1,0 +1,17 @@
+📊 Daily report — 01 Nov 2026, 02:57:11 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 4 · ❌ SL 5 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 44.4%
+Open right now: 2
+
+All-time: 363 trades · TP 164 · SL 169 · timeout 28 · win rate 49.2%
+❌ MORPHO [Me] -1.16%
+❌ ASTER [Combined] -1.16%
+✅ UNI [Claude] +1.16%
+❌ PUMP [Combined] -1.16%
+❌ GRAM [Claude] -1.16%
+❌ ONDO [Combined] -1.16%
+✅ AAVE [Claude] +1.16%
+✅ TIA [Me] +1.16%
+✅ APT [Combined] +1.16%
