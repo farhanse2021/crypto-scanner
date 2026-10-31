@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1793408130008_aca073",
+  "source": "Combined",
+  "symbol": "ONDO",
+  "name": "Ondo",
+  "rank": 47,
+  "marketCap": 2049873976,
+  "price": 0.4207,
+  "score": 89,
+  "adx1h": 19.910324286121824,
+  "adx15m": 40.61030185500414,
+  "adx5m": 37.953087381884934,
+  "rsi": 68.76221034373759,
+  "atrPct": 0.3711452249949315,
+  "volRatio": 1.995085458513494,
+  "marginPct": 5.641908520352415,
+  "btcDom": 57.55100009301959,
+  "ethDom": 10.149061655337965,
+  "usdtDom": 6.654302110001149,
+  "ethBtcRatio": 0.02901622403637491,
+  "totalMcap": 2704476012466,
+  "total2": 1148023020016,
+  "total3": 873544082057,
+  "breadthPct": 83.75,
+  "beatBtc": 67,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.41581988,
+  "tpPrice": 0.42558012000000006,
+  "auto": true,
+  "loggedAt": 1793408130008,
+  "loggedAtPKT": "31 Oct 2026, 05:55:30",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1793395656343_83a76c",
   "source": "Claude",
   "symbol": "AAVE",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1793395656343,
   "loggedAtPKT": "31 Oct 2026, 02:27:36",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1793405339999,
+  "closedAtPKT": "31 Oct 2026, 05:08:59",
+  "exitPrice": 129.86920800000001,
+  "pnlPct": 1.16
  },
  {
   "id": "t1793395656343_335e73",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1793395656343,
   "loggedAtPKT": "31 Oct 2026, 02:27:36",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1793399939999,
+  "closedAtPKT": "31 Oct 2026, 03:38:59",
+  "exitPrice": 0.47120328,
+  "pnlPct": 1.16
  },
  {
   "id": "t1793395656343_c4d586",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1793395656343,
   "loggedAtPKT": "31 Oct 2026, 02:27:36",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1793399339999,
+  "closedAtPKT": "31 Oct 2026, 03:28:59",
+  "exitPrice": 0.65389824,
+  "pnlPct": 1.16
  },
  {
   "id": "t1793380161651_bd045b",
