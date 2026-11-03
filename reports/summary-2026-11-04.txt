@@ -1,0 +1,10 @@
+📊 Daily report — 04 Nov 2026, 04:43:28 PKT (last 24h)
+
+Trades opened: 5
+Closed: ✅ TP 2 · ❌ SL 0 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 100.0%
+Open right now: 3
+
+All-time: 378 trades · TP 170 · SL 175 · timeout 30 · win rate 49.3%
+✅ MORPHO [Me] +1.16%
+✅ SUI [Claude] +1.16%
