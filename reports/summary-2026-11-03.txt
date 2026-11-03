@@ -1,0 +1,12 @@
+📊 Daily report — 03 Nov 2026, 06:20:10 PKT (last 24h)
+
+Trades opened: 3
+Closed: ✅ TP 1 · ❌ SL 2 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 33.3%
+Open right now: 0
+
+All-time: 373 trades · TP 168 · SL 175 · timeout 30 · win rate 49.0%
+❌ DOT [Claude] -1.16%
+⏱ SUN [Me] -0.45%
+✅ ZEC [Me] +1.16%
+❌ QNT [Me] -1.16%
