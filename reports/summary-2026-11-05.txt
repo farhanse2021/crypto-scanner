@@ -1,0 +1,12 @@
+📊 Daily report — 05 Nov 2026, 04:57:40 PKT (last 24h)
+
+Trades opened: 5
+Closed: ✅ TP 0 · ❌ SL 4 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 0.0%
+Open right now: 3
+
+All-time: 383 trades · TP 171 · SL 179 · timeout 30 · win rate 48.9%
+❌ ALGO [Claude] -1.16%
+❌ MORPHO [Combined] -1.16%
+❌ PUMP [Me] -1.16%
+❌ VET [Claude] -1.16%
