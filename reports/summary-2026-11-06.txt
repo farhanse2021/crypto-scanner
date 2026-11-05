@@ -1,0 +1,15 @@
+📊 Daily report — 06 Nov 2026, 04:52:02 PKT (last 24h)
+
+Trades opened: 4
+Closed: ✅ TP 0 · ❌ SL 6 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 0.0%
+Open right now: 0
+
+All-time: 387 trades · TP 171 · SL 185 · timeout 31 · win rate 48.0%
+❌ BONK [Claude] -1.16%
+❌ TIA [Combined] -1.16%
+❌ DASH [Claude] -1.16%
+⏱ ZEC [Combined] +0.27%
+❌ SHIB [Claude] -1.16%
+❌ INJ [Me] -1.16%
+❌ ETC [Combined] -1.16%
