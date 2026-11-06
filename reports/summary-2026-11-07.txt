@@ -1,0 +1,16 @@
+📊 Daily report — 07 Nov 2026, 04:33:25 PKT (last 24h)
+
+Trades opened: 10
+Closed: ✅ TP 3 · ❌ SL 5 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 37.5%
+Open right now: 2
+
+All-time: 397 trades · TP 174 · SL 190 · timeout 31 · win rate 47.8%
+❌ AAVE [Claude] -1.16%
+✅ ALGO [Combined] +1.16%
+✅ BONK [Claude] +1.16%
+✅ DEXE [Me] +1.16%
+❌ FET [Combined] -1.16%
+❌ LINK [Claude] -1.16%
+❌ TRUMP [Me] -1.16%
+❌ ETHFI [Combined] -1.16%
