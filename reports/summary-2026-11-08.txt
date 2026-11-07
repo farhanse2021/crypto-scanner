@@ -1,0 +1,13 @@
+📊 Daily report — 08 Nov 2026, 03:22:01 PKT (last 24h)
+
+Trades opened: 4
+Closed: ✅ TP 1 · ❌ SL 4 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 20.0%
+Open right now: 1
+
+All-time: 401 trades · TP 175 · SL 194 · timeout 31 · win rate 47.4%
+✅ ARB [Claude] +1.16%
+❌ TIA [Me] -1.16%
+❌ INJ [Claude] -1.16%
+❌ QNT [Claude] -1.16%
+❌ CRV [Me] -1.16%
