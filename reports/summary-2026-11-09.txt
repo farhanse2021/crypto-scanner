@@ -1,0 +1,13 @@
+📊 Daily report — 09 Nov 2026, 03:31:57 PKT (last 24h)
+
+Trades opened: 5
+Closed: ✅ TP 3 · ❌ SL 2 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 60.0%
+Open right now: 3
+
+All-time: 408 trades · TP 178 · SL 196 · timeout 31 · win rate 47.6%
+✅ PEPE [Me] +1.16%
+✅ WLFI [Claude] +1.16%
+❌ INJ [Claude] -1.16%
+❌ AERO [Me] -1.16%
+✅ ETHFI [Combined] +1.16%
