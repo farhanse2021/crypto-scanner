@@ -31,9 +31,11 @@
   "auto": true,
   "loggedAt": 1794164472886,
   "loggedAtPKT": "09 Nov 2026, 00:01:12",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794174239999,
+  "closedAtPKT": "09 Nov 2026, 02:43:59",
+  "exitPrice": 198.80677599999999,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794164472886_ac5142",
@@ -67,9 +69,11 @@
   "auto": true,
   "loggedAt": 1794164472886,
   "loggedAtPKT": "09 Nov 2026, 00:01:12",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794169439999,
+  "closedAtPKT": "09 Nov 2026, 01:23:59",
+  "exitPrice": 47.186216,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794148435984_2509d5",
@@ -103,9 +107,11 @@
   "auto": true,
   "loggedAt": 1794148435984,
   "loggedAtPKT": "08 Nov 2026, 19:33:55",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794174599999,
+  "closedAtPKT": "09 Nov 2026, 02:49:59",
+  "exitPrice": 0.7235088,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794148435984_54fec0",
