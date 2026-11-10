@@ -1,0 +1,11 @@
+📊 Daily report — 11 Nov 2026, 04:46:37 PKT (last 24h)
+
+Trades opened: 4
+Closed: ✅ TP 1 · ❌ SL 2 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 33.3%
+Open right now: 2
+
+All-time: 419 trades · TP 182 · SL 204 · timeout 31 · win rate 47.2%
+❌ ONDO [Claude] -1.16%
+✅ GRAM [Combined] +1.16%
+❌ HYPE [Claude] -1.16%
