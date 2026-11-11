@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1794439617007_e40bae",
+  "source": "Me",
+  "symbol": "NIGHT",
+  "name": "Midnight",
+  "rank": 83,
+  "marketCap": 778316802,
+  "price": 0.047,
+  "score": 15,
+  "adx1h": 50.4007182175309,
+  "adx15m": 32.31662856152186,
+  "adx5m": 28.696389565666323,
+  "rsi": 37.19685851244326,
+  "atrPct": 0.7198254789938521,
+  "volRatio": 0.2778485468926881,
+  "marginPct": 1.51467165518404,
+  "btcDom": 58.32799588538068,
+  "ethDom": 9.829609522398702,
+  "usdtDom": 6.932326506748447,
+  "ethBtcRatio": 0.027732655364159177,
+  "totalMcap": 2536010696508,
+  "total2": 1056806481796,
+  "total3": 807526532883,
+  "breadthPct": 27.500000000000004,
+  "beatBtc": 22,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.0464548,
+  "tpPrice": 0.0475452,
+  "auto": true,
+  "loggedAt": 1794439617007,
+  "loggedAtPKT": "12 Nov 2026, 04:26:57",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1794417099601_0e8c49",
   "source": "Claude",
   "symbol": "MORPHO",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1794417099601,
   "loggedAtPKT": "11 Nov 2026, 22:11:39",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794425519999,
+  "closedAtPKT": "12 Nov 2026, 00:31:59",
+  "exitPrice": 2.02622,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794417099601_2deb9a",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1794417099601,
   "loggedAtPKT": "11 Nov 2026, 22:11:39",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1794417539999,
+  "closedAtPKT": "11 Nov 2026, 22:18:59",
+  "exitPrice": 1022.434236,
+  "pnlPct": 1.16
  },
  {
   "id": "t1794417099601_19c1ca",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1794417099601,
   "loggedAtPKT": "11 Nov 2026, 22:11:39",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794423839999,
+  "closedAtPKT": "12 Nov 2026, 00:03:59",
+  "exitPrice": 6.5372775999999995,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794388571135_cf3c36",
