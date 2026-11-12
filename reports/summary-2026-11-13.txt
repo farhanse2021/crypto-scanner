@@ -1,0 +1,11 @@
+📊 Daily report — 13 Nov 2026, 04:54:18 PKT (last 24h)
+
+Trades opened: 4
+Closed: ✅ TP 1 · ❌ SL 2 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 33.3%
+Open right now: 2
+
+All-time: 430 trades · TP 187 · SL 210 · timeout 31 · win rate 47.1%
+❌ JUP [Me] -1.16%
+❌ INJ [Claude] -1.16%
+✅ NIGHT [Me] +1.16%
