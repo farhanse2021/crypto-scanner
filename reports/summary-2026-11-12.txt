@@ -1,0 +1,14 @@
+📊 Daily report — 12 Nov 2026, 06:04:31 PKT (last 24h)
+
+Trades opened: 7
+Closed: ✅ TP 3 · ❌ SL 3 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 50.0%
+Open right now: 1
+
+All-time: 426 trades · TP 186 · SL 208 · timeout 31 · win rate 47.2%
+❌ MORPHO [Claude] -1.16%
+✅ ZEC [Me] +1.16%
+❌ UNI [Combined] -1.16%
+✅ AVAX [Me] +1.16%
+❌ CRV [Claude] -1.16%
+✅ ARB [Me] +1.16%
