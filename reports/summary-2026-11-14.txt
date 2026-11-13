@@ -1,0 +1,15 @@
+📊 Daily report — 14 Nov 2026, 04:56:47 PKT (last 24h)
+
+Trades opened: 6
+Closed: ✅ TP 4 · ❌ SL 3 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 57.1%
+Open right now: 1
+
+All-time: 436 trades · TP 191 · SL 213 · timeout 31 · win rate 47.3%
+✅ DASH [Me] +1.16%
+❌ GRAM [Claude] -1.16%
+❌ NEAR [Me] -1.16%
+✅ DEXE [Me] +1.16%
+✅ PYTH [Combined] +1.16%
+❌ SUI [Claude] -1.16%
+✅ ARB [Me] +1.16%
