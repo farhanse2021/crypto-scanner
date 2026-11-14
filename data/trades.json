@@ -31,9 +31,11 @@
   "auto": true,
   "loggedAt": 1794684586227,
   "loggedAtPKT": "15 Nov 2026, 00:29:46",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794687359999,
+  "closedAtPKT": "15 Nov 2026, 01:15:59",
+  "exitPrice": 1.0565996,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794684586227_d1fc5a",
@@ -67,9 +69,11 @@
   "auto": true,
   "loggedAt": 1794684586227,
   "loggedAtPKT": "15 Nov 2026, 00:29:46",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794687239999,
+  "closedAtPKT": "15 Nov 2026, 01:13:59",
+  "exitPrice": 0.6849611999999999,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794620219026_3f9655",
