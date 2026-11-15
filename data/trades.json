@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1794760755259_9971ee",
+  "source": "Claude",
+  "symbol": "ENA",
+  "name": "Ethena",
+  "rank": 51,
+  "marketCap": 1631169198,
+  "price": 0.1207,
+  "score": 92,
+  "adx1h": 35.40622659512009,
+  "adx15m": 19.569813543368326,
+  "adx5m": 14.928879159512059,
+  "rsi": 57.6860084855195,
+  "atrPct": 0.5471834425061105,
+  "volRatio": 2.5036908442146157,
+  "marginPct": 1.0192406961381213,
+  "btcDom": 56.95470539754992,
+  "ethDom": 9.721224745866007,
+  "usdtDom": 7.687611369607423,
+  "ethBtcRatio": 0.02808607179360114,
+  "totalMcap": 2280379394451,
+  "total2": 981596028395,
+  "total3": 759915222402,
+  "breadthPct": 65.0,
+  "beatBtc": 52,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.11929988,
+  "tpPrice": 0.12210012,
+  "auto": true,
+  "loggedAt": 1794760755259,
+  "loggedAtPKT": "15 Nov 2026, 21:39:15",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1794736411468_88bfdc",
   "source": "Claude",
   "symbol": "ETHFI",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1794736411468,
   "loggedAtPKT": "15 Nov 2026, 14:53:31",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1794746099999,
+  "closedAtPKT": "15 Nov 2026, 17:34:59",
+  "exitPrice": 0.5128812,
+  "pnlPct": 1.16
  },
  {
   "id": "t1794736411468_cce882",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1794736411468,
   "loggedAtPKT": "15 Nov 2026, 14:53:31",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794753719999,
+  "closedAtPKT": "15 Nov 2026, 19:41:59",
+  "exitPrice": 5.920516,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794736411468_31dd51",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1794736411468,
   "loggedAtPKT": "15 Nov 2026, 14:53:31",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794738179999,
+  "closedAtPKT": "15 Nov 2026, 15:22:59",
+  "exitPrice": 0.049686868,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794710406130_bb6ee8",
