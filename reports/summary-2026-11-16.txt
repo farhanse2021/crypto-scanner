@@ -1,0 +1,14 @@
+📊 Daily report — 16 Nov 2026, 04:12:56 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 2 · ❌ SL 4 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 33.3%
+Open right now: 2
+
+All-time: 447 trades · TP 194 · SL 220 · timeout 31 · win rate 46.9%
+❌ ENA [Claude] -1.16%
+✅ ETHFI [Claude] +1.16%
+❌ ETC [Me] -1.16%
+❌ NIGHT [Combined] -1.16%
+✅ POL [Claude] +1.16%
+❌ HYPE [Me] -1.16%
