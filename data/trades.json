@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1794877108266_0d2298",
+  "source": "Me",
+  "symbol": "ASTER",
+  "name": "Aster",
+  "rank": 54,
+  "marketCap": 1481208293,
+  "price": 0.5765,
+  "score": 72,
+  "adx1h": 53.89215566362863,
+  "adx15m": 20.37957026446769,
+  "adx5m": 28.696010564551013,
+  "rsi": 59.49633820012767,
+  "atrPct": 0.47186116699592506,
+  "volRatio": 0.4036740288268521,
+  "marginPct": 2.7975284780908116,
+  "btcDom": 56.96151568361712,
+  "ethDom": 9.71746305544836,
+  "usdtDom": 7.6940284616600625,
+  "ethBtcRatio": 0.028073478368662454,
+  "totalMcap": 2278781399090,
+  "total2": 980752975052,
+  "total3": 759313234481,
+  "breadthPct": 40.0,
+  "beatBtc": 32,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.5698126,
+  "tpPrice": 0.5831874,
+  "auto": true,
+  "loggedAt": 1794877108266,
+  "loggedAtPKT": "17 Nov 2026, 05:58:28",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1794850202415_c182c8",
   "source": "Claude",
   "symbol": "NEXO",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1794850202415,
   "loggedAtPKT": "16 Nov 2026, 22:30:02",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794871859999,
+  "closedAtPKT": "17 Nov 2026, 04:30:59",
+  "exitPrice": 0.6661816,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794850202415_8296db",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1794850202415,
   "loggedAtPKT": "16 Nov 2026, 22:30:02",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1794859859999,
+  "closedAtPKT": "17 Nov 2026, 01:10:59",
+  "exitPrice": 0.43782048000000007,
+  "pnlPct": 1.16
  },
  {
   "id": "t1794850202415_527f10",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1794850202415,
   "loggedAtPKT": "16 Nov 2026, 22:30:02",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794854159999,
+  "closedAtPKT": "16 Nov 2026, 23:35:59",
+  "exitPrice": 156.987572,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794815502220_02f264",
