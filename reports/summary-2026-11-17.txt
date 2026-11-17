@@ -1,0 +1,12 @@
+📊 Daily report — 17 Nov 2026, 07:08:36 PKT (last 24h)
+
+Trades opened: 5
+Closed: ✅ TP 1 · ❌ SL 3 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 25.0%
+Open right now: 1
+
+All-time: 452 trades · TP 195 · SL 225 · timeout 31 · win rate 46.4%
+❌ NEXO [Claude] -1.16%
+✅ AERO [Me] +1.16%
+❌ QNT [Combined] -1.16%
+❌ ZEC [Claude] -1.16%
