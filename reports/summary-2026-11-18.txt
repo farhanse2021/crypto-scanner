@@ -1,0 +1,12 @@
+📊 Daily report — 18 Nov 2026, 06:21:26 PKT (last 24h)
+
+Trades opened: 6
+Closed: ✅ TP 1 · ❌ SL 3 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 25.0%
+Open right now: 3
+
+All-time: 458 trades · TP 196 · SL 228 · timeout 31 · win rate 46.2%
+❌ GRAM [Me] -1.16%
+❌ FIL [Claude] -1.16%
+❌ LUNC [Combined] -1.16%
+✅ ASTER [Me] +1.16%
