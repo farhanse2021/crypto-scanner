@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1794986176137_d4054f",
+  "source": "Claude",
+  "symbol": "AVAX",
+  "name": "Avalanche",
+  "rank": 26,
+  "marketCap": 3215197285,
+  "price": 7.218,
+  "score": 100,
+  "adx1h": 11.76652179220626,
+  "adx15m": 12.471982499766243,
+  "adx5m": 17.562448460079633,
+  "rsi": 63.253455223961495,
+  "atrPct": 0.24490827667442414,
+  "volRatio": 3.8378261104440736,
+  "marginPct": 0.5445798358618482,
+  "btcDom": 56.82926154916868,
+  "ethDom": 9.689368145189972,
+  "usdtDom": 7.654138960957105,
+  "ethBtcRatio": 0.028055671473392992,
+  "totalMcap": 2290061946786,
+  "total2": 988636653409,
+  "total3": 766744120632,
+  "breadthPct": 48.75,
+  "beatBtc": 39,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 7.1342712,
+  "tpPrice": 7.3017288,
+  "auto": true,
+  "loggedAt": 1794986176137,
+  "loggedAtPKT": "18 Nov 2026, 12:16:16",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1794960534500_f97b3f",
   "source": "Claude",
   "symbol": "WLFI",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1794960534500,
   "loggedAtPKT": "18 Nov 2026, 05:08:54",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "timeout",
+  "closedAt": 1794986176137,
+  "closedAtPKT": "18 Nov 2026, 12:16:16",
+  "exitPrice": 0.0459,
+  "pnlPct": 0.438
  },
  {
   "id": "t1794960534500_56f51e",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1794960534500,
   "loggedAtPKT": "18 Nov 2026, 05:08:54",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794964259999,
+  "closedAtPKT": "18 Nov 2026, 06:10:59",
+  "exitPrice": 0.57554532,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794960534500_3cda95",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1794960534500,
   "loggedAtPKT": "18 Nov 2026, 05:08:54",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794965579999,
+  "closedAtPKT": "18 Nov 2026, 06:32:59",
+  "exitPrice": 0.14005627999999998,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794938129449_3dd2f0",
