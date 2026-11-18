@@ -31,9 +31,11 @@
   "auto": true,
   "loggedAt": 1794986176137,
   "loggedAtPKT": "18 Nov 2026, 12:16:16",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1794989639999,
+  "closedAtPKT": "18 Nov 2026, 13:13:59",
+  "exitPrice": 7.1342712,
+  "pnlPct": -1.16
  },
  {
   "id": "t1794960534500_f97b3f",
