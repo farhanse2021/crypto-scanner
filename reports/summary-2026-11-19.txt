@@ -1,0 +1,12 @@
+📊 Daily report — 19 Nov 2026, 05:46:31 PKT (last 24h)
+
+Trades opened: 3
+Closed: ✅ TP 0 · ❌ SL 3 · ⏱ timeout 1
+Win rate (24h, TP vs SL): 0.0%
+Open right now: 2
+
+All-time: 461 trades · TP 196 · SL 231 · timeout 32 · win rate 45.9%
+❌ AVAX [Claude] -1.16%
+⏱ WLFI [Claude] +0.44%
+❌ ASTER [Me] -1.16%
+❌ XLM [Combined] -1.16%
