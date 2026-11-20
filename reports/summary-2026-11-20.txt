@@ -1,0 +1,10 @@
+📊 Daily report — 20 Nov 2026, 05:56:46 PKT (last 24h)
+
+Trades opened: 3
+Closed: ✅ TP 2 · ❌ SL 0 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 100.0%
+Open right now: 1
+
+All-time: 464 trades · TP 200 · SL 231 · timeout 32 · win rate 46.4%
+✅ PUMP [Me] +1.16%
+✅ VIRTUAL [Claude] +1.16%
