@@ -1,0 +1,9 @@
+📊 Daily report — 21 Nov 2026, 05:21:42 PKT (last 24h)
+
+Trades opened: 3
+Closed: ✅ TP 1 · ❌ SL 0 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 100.0%
+Open right now: 2
+
+All-time: 467 trades · TP 201 · SL 232 · timeout 32 · win rate 46.4%
+✅ ASTER [Claude] +1.16%
