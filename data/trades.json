@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1795319689432_9aaa1a",
+  "source": "Claude",
+  "symbol": "ETHFI",
+  "name": "ether.fi",
+  "rank": 98,
+  "marketCap": 480626263,
+  "price": 0.4826,
+  "score": 88,
+  "adx1h": 33.83011583802303,
+  "adx15m": 47.28782184964502,
+  "adx5m": 16.824636485529464,
+  "rsi": 58.242899033241436,
+  "atrPct": 0.4981946538232823,
+  "volRatio": 1.2086577806756866,
+  "marginPct": 3.546034920022508,
+  "btcDom": 56.13891793204952,
+  "ethDom": 9.547931544726548,
+  "usdtDom": 8.231362130622635,
+  "ethBtcRatio": 0.027988273659665785,
+  "totalMcap": 2120788173862,
+  "total2": 930200641425,
+  "total3": 727709238376,
+  "breadthPct": 41.25,
+  "beatBtc": 33,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 0.47700183999999995,
+  "tpPrice": 0.48819816,
+  "auto": true,
+  "loggedAt": 1795319689432,
+  "loggedAtPKT": "22 Nov 2026, 08:54:49",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1795305319351_b340c5",
   "source": "Combined",
   "symbol": "PYTH",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1795305319351,
   "loggedAtPKT": "22 Nov 2026, 04:55:19",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1795313939999,
+  "closedAtPKT": "22 Nov 2026, 07:18:59",
+  "exitPrice": 0.048471136,
+  "pnlPct": -1.16
  },
  {
   "id": "t1795290165101_fd2b53",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1795290165101,
   "loggedAtPKT": "22 Nov 2026, 00:42:45",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "sl",
+  "closedAt": 1795315139999,
+  "closedAtPKT": "22 Nov 2026, 07:38:59",
+  "exitPrice": 60.806368,
+  "pnlPct": -1.16
  },
  {
   "id": "t1795290165101_1e3833",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1795290165101,
   "loggedAtPKT": "22 Nov 2026, 00:42:45",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "timeout",
+  "closedAt": 1795319689432,
+  "closedAtPKT": "22 Nov 2026, 08:54:49",
+  "exitPrice": 0.14617,
+  "pnlPct": 0.233
  },
  {
   "id": "t1795264415749_0afa10",
