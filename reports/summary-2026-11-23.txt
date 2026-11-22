@@ -1,0 +1,14 @@
+📊 Daily report — 23 Nov 2026, 04:53:41 PKT (last 24h)
+
+Trades opened: 6
+Closed: ✅ TP 0 · ❌ SL 4 · ⏱ timeout 2
+Win rate (24h, TP vs SL): 0.0%
+Open right now: 2
+
+All-time: 477 trades · TP 203 · SL 238 · timeout 34 · win rate 46.0%
+❌ NIGHT [Me] -1.16%
+⏱ ONDO [Combined] -0.17%
+❌ ETHFI [Claude] -1.16%
+❌ PYTH [Combined] -1.16%
+❌ HYPE [Claude] -1.16%
+⏱ JST [Me] +0.23%
