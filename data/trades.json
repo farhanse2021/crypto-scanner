@@ -1,5 +1,41 @@
 [
  {
+  "id": "t1795680480626_1a2ba4",
+  "source": "Claude",
+  "symbol": "INJ",
+  "name": "Injective",
+  "rank": 90,
+  "marketCap": 615897276,
+  "price": 6.165,
+  "score": 100,
+  "adx1h": 27.637940440502238,
+  "adx15m": 25.622374575490074,
+  "adx5m": 17.59192311794132,
+  "rsi": 62.88661426283626,
+  "atrPct": 0.3857290653739615,
+  "volRatio": 4.835159547390365,
+  "marginPct": 2.0378023795469065,
+  "btcDom": 56.32183553286446,
+  "ethDom": 9.546585589671395,
+  "usdtDom": 8.037655525060952,
+  "ethBtcRatio": 0.027892233763231335,
+  "totalMcap": 2163027434305,
+  "total2": 944770680225,
+  "total3": 738275414881,
+  "breadthPct": 60.0,
+  "beatBtc": 48,
+  "breadthTotal": 80,
+  "direction": "long",
+  "slPrice": 6.0934859999999995,
+  "tpPrice": 6.236514000000001,
+  "auto": true,
+  "loggedAt": 1795680480626,
+  "loggedAtPKT": "26 Nov 2026, 13:08:00",
+  "status": "pending",
+  "closedAt": null,
+  "closedAtPKT": null
+ },
+ {
   "id": "t1795651832812_029432",
   "source": "Claude",
   "symbol": "PEPE",
@@ -31,9 +67,11 @@
   "auto": true,
   "loggedAt": 1795651832812,
   "loggedAtPKT": "26 Nov 2026, 05:10:32",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1795652219999,
+  "closedAtPKT": "26 Nov 2026, 05:16:59",
+  "exitPrice": 3.550716e-06,
+  "pnlPct": 1.16
  },
  {
   "id": "t1795651832812_c6c538",
@@ -67,9 +105,11 @@
   "auto": true,
   "loggedAt": 1795651832812,
   "loggedAtPKT": "26 Nov 2026, 05:10:32",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1795660979999,
+  "closedAtPKT": "26 Nov 2026, 07:42:59",
+  "exitPrice": 0.5016524400000001,
+  "pnlPct": 1.16
  },
  {
   "id": "t1795651832812_297a42",
@@ -103,9 +143,11 @@
   "auto": true,
   "loggedAt": 1795651832812,
   "loggedAtPKT": "26 Nov 2026, 05:10:32",
-  "status": "pending",
-  "closedAt": null,
-  "closedAtPKT": null
+  "status": "tp",
+  "closedAt": 1795652219999,
+  "closedAtPKT": "26 Nov 2026, 05:16:59",
+  "exitPrice": 0.004913341200000001,
+  "pnlPct": 1.16
  },
  {
   "id": "t1795622656087_9ffa00",
