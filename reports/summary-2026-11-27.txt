@@ -1,0 +1,12 @@
+📊 Daily report — 27 Nov 2026, 06:57:48 PKT (last 24h)
+
+Trades opened: 6
+Closed: ✅ TP 3 · ❌ SL 1 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 75.0%
+Open right now: 3
+
+All-time: 496 trades · TP 213 · SL 246 · timeout 34 · win rate 46.4%
+❌ APT [Claude] -1.16%
+✅ SEI [Me] +1.16%
+✅ INJ [Claude] +1.16%
+✅ ASTER [Me] +1.16%
