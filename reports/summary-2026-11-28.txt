@@ -1,0 +1,13 @@
+📊 Daily report — 28 Nov 2026, 06:41:36 PKT (last 24h)
+
+Trades opened: 8
+Closed: ✅ TP 3 · ❌ SL 2 · ⏱ timeout 0
+Win rate (24h, TP vs SL): 60.0%
+Open right now: 3
+
+All-time: 501 trades · TP 216 · SL 248 · timeout 34 · win rate 46.6%
+❌ FET [Me] -1.16%
+❌ DOGE [Combined] -1.16%
+✅ ARB [Claude] +1.16%
+✅ JUP [Me] +1.16%
+✅ ALGO [Combined] +1.16%
